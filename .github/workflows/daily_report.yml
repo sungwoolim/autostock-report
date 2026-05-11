@@ -1,0 +1,87 @@
+name: 📊 Daily AutoStock Report
+
+on:
+  schedule:
+    # 매일 오전 7시 KST 실행 (UTC 기준 전날 22:00)
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    # GitHub Actions 탭에서 수동 실행 가능 (테스트용)
+    inputs:
+      dry_run:
+        description: 'Dry run mode (더미 데이터 사용)'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  generate-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # repo에 commit/push 권한
+
+    steps:
+      # 1. 코드 체크아웃
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 2. Python 설치
+      - name: 🐍 Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. 의존성 설치
+      - name: 📦 Install dependencies
+        run: pip install -r requirements.txt
+
+      # 4. 리포트 생성 실행
+      - name: 🚀 Generate AutoStock Report
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            python main.py --dry-run --no-sheets
+          else
+            python main.py --no-sheets
+          fi
+
+      # 5. 생성된 HTML을 public/ 폴더로 복사 (Cloudflare Pages용)
+      - name: 📁 Copy report to public/
+        run: |
+          mkdir -p public
+          TODAY=$(date +%Y%m%d)
+          
+          # 최신 리포트를 index.html로 복사 (메인 URL)
+          cp output/report_${TODAY}.html public/index.html
+          
+          # 날짜별 아카이브도 보관
+          cp output/report_${TODAY}.html public/report_${TODAY}.html
+          
+          # JSON 데이터도 복사
+          cp output/report_${TODAY}.json public/report_${TODAY}.json
+          cp output/report_${TODAY}.json public/latest.json
+          
+          echo "✅ Report copied: public/index.html"
+          ls -la public/
+
+      # 6. 변경사항 커밋 & 푸시
+      - name: 📤 Commit and push report
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot 📊"
+          git add public/
+          git diff --staged --quiet || git commit -m "📊 Auto Report $(date +'%Y-%m-%d %H:%M KST')"
+          git push
+
+      # 7. 완료 알림 (선택)
+      - name: ✅ Report generation complete
+        run: |
+          echo "======================================"
+          echo "🎉 AutoStock Report 생성 완료!"
+          echo "📅 날짜: $(date +'%Y-%m-%d')"
+          echo "🌐 URL: https://autostock-report.pages.dev"
+          echo "======================================"

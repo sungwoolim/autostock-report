@@ -1,0 +1,127 @@
+{
+  "tickers": ["AAPL", "MSFT", "GOOGL", "AMZN", "NVDA", "META", "TSLA"],
+
+  "max_news_age_hours": 24,
+  "gpt_model": "gpt-4o",
+  "max_tokens": 1500,
+
+  "google_sheets": {
+    "spreadsheet_id": "YOUR_SPREADSHEET_ID_HERE",
+    "worksheet_name": "DailyReport"
+  },
+
+  "rss_sources": [
+    {
+      "name": "Reuters Technology",
+      "url": "https://feeds.reuters.com/reuters/technologyNews",
+      "category": "breaking"
+    },
+    {
+      "name": "CNBC Technology",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "category": "breaking"
+    },
+    {
+      "name": "Bloomberg Technology",
+      "url": "https://feeds.bloomberg.com/technology/news.rss",
+      "category": "breaking"
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "category": "industry"
+    },
+    {
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml",
+      "category": "industry"
+    },
+    {
+      "name": "DigiTimes",
+      "url": "https://www.digitimes.com/rss/news.xml",
+      "category": "semiconductor"
+    },
+    {
+      "name": "Seeking Alpha",
+      "url": "https://seekingalpha.com/feed.xml",
+      "category": "analysis"
+    },
+    {
+      "name": "Investing.com News",
+      "url": "https://www.investing.com/rss/news.rss",
+      "category": "analysis"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/rssindex",
+      "category": "data"
+    },
+    {
+      "name": "Earnings Whispers",
+      "url": "https://www.earningswhispers.com/rss",
+      "category": "data"
+    },
+    {
+      "name": "ARK Invest",
+      "url": "https://ark-invest.com/articles/feed/",
+      "category": "ib_report"
+    },
+    {
+      "name": "Goldman Sachs Insights",
+      "url": "https://www.goldmansachs.com/intelligence/rss/gs-briefings.xml",
+      "category": "ib_report"
+    },
+    {
+      "name": "BlackRock Insights",
+      "url": "https://www.blackrock.com/us/individual/insights/feed",
+      "category": "ib_report"
+    }
+  ],
+
+  "special_sources": {
+    "sec_edgar": {
+      "enabled": true,
+      "base_url": "https://data.sec.gov/submissions/CIK{cik}.json",
+      "forms": ["8-K", "10-K"]
+    },
+    "cnn_fear_greed": {
+      "enabled": true,
+      "url": "https://production.dataviz.cnn.io/index/fearandgreed/graphdata"
+    },
+    "reddit": {
+      "enabled": true,
+      "subreddit": "stocks",
+      "limit": 10,
+      "use_praw": false
+    },
+    "stocktwits": {
+      "enabled": true,
+      "base_url": "https://api.stocktwits.com/api/2/streams/symbol/{ticker}.json"
+    },
+    "tipranks": {
+      "enabled": true,
+      "scrape_url": "https://www.tipranks.com/stocks/{ticker}/forecast"
+    },
+    "x_twitter": {
+      "enabled": false,
+      "note": "Skipped - API requires paid subscription ($100+/month)"
+    }
+  },
+
+  "sec_cik_map": {
+    "AAPL": "0000320193",
+    "MSFT": "0000789019",
+    "GOOGL": "0001652044",
+    "AMZN": "0001018724",
+    "NVDA": "0001045810",
+    "META": "0001326801",
+    "TSLA": "0001318605"
+  },
+
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "recipients": []
+  }
+}
