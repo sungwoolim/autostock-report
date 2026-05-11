@@ -1,0 +1,1695 @@
+{
+  "collected": {
+    "collected_at": "2026-05-11T22:53:15.324502+00:00",
+    "stock_data": {
+      "AAPL": {
+        "ticker": "AAPL",
+        "price": 292.68,
+        "prev_close": 293.257,
+        "change_pct": -0.2,
+        "market_cap_raw": 4298695245824.0,
+        "market_cap": "$4.30T",
+        "pe_ratio": 35.390564,
+        "forward_pe": 30.615929,
+        "revenue": 451442016256.0,
+        "eps": 8.27,
+        "week_52_high": 294.76,
+        "week_52_low": 193.46,
+        "analyst_target": 305.28094,
+        "recommendation": "buy",
+        "sector": "Technology",
+        "company_name": "Apple Inc.",
+        "collected_at": "2026-05-11T22:52:55.364101+00:00"
+      },
+      "MSFT": {
+        "ticker": "MSFT",
+        "price": 412.66,
+        "prev_close": 415.06,
+        "change_pct": -0.58,
+        "market_cap_raw": 3065418088448.0,
+        "market_cap": "$3.07T",
+        "pe_ratio": 24.607037,
+        "forward_pe": 21.321096,
+        "revenue": 318272995328.0,
+        "eps": 16.77,
+        "week_52_high": 555.45,
+        "week_52_low": 356.28,
+        "analyst_target": 561.5561,
+        "recommendation": "strong_buy",
+        "sector": "Technology",
+        "company_name": "Microsoft Corporation",
+        "collected_at": "2026-05-11T22:52:55.898415+00:00"
+      },
+      "GOOGL": {
+        "ticker": "GOOGL",
+        "price": 388.64,
+        "prev_close": 400.713,
+        "change_pct": -3.01,
+        "market_cap_raw": 4708546117632.0,
+        "market_cap": "$4.71T",
+        "pe_ratio": 29.644548,
+        "forward_pe": 26.868374,
+        "revenue": 422498009088.0,
+        "eps": 13.11,
+        "week_52_high": 402.0,
+        "week_52_low": 156.16,
+        "analyst_target": 427.88712,
+        "recommendation": "strong_buy",
+        "sector": "Communication Services",
+        "company_name": "Alphabet Inc.",
+        "collected_at": "2026-05-11T22:52:56.436363+00:00"
+      },
+      "AMZN": {
+        "ticker": "AMZN",
+        "price": 268.99,
+        "prev_close": 272.68,
+        "change_pct": -1.35,
+        "market_cap_raw": 2893554909184.0,
+        "market_cap": "$2.89T",
+        "pe_ratio": 32.137394,
+        "forward_pe": 27.251276,
+        "revenue": 742775980032.0,
+        "eps": 8.37,
+        "week_52_high": 278.56,
+        "week_52_low": 196.0,
+        "analyst_target": 311.55145,
+        "recommendation": "strong_buy",
+        "sector": "Consumer Cyclical",
+        "company_name": "Amazon.com, Inc.",
+        "collected_at": "2026-05-11T22:52:56.967733+00:00"
+      },
+      "NVDA": {
+        "ticker": "NVDA",
+        "price": 219.44,
+        "prev_close": 215.217,
+        "change_pct": 1.96,
+        "market_cap_raw": 5333489549312.0,
+        "market_cap": "$5.33T",
+        "pe_ratio": 44.692467,
+        "forward_pe": 19.443697,
+        "revenue": 215938007040.0,
+        "eps": 4.91,
+        "week_52_high": 222.3,
+        "week_52_low": 120.28,
+        "analyst_target": 269.16544,
+        "recommendation": "strong_buy",
+        "sector": "Technology",
+        "company_name": "NVIDIA Corporation",
+        "collected_at": "2026-05-11T22:52:57.540051+00:00"
+      },
+      "META": {
+        "ticker": "META",
+        "price": 598.86,
+        "prev_close": 609.63,
+        "change_pct": -1.77,
+        "market_cap_raw": 1520160079872.0,
+        "market_cap": "$1.52T",
+        "pe_ratio": 21.784649,
+        "forward_pe": 16.549513,
+        "revenue": 214962995200.0,
+        "eps": 27.49,
+        "week_52_high": 796.25,
+        "week_52_low": 520.26,
+        "analyst_target": 826.69104,
+        "recommendation": "strong_buy",
+        "sector": "Communication Services",
+        "company_name": "Meta Platforms, Inc.",
+        "collected_at": "2026-05-11T22:52:58.077300+00:00"
+      },
+      "TSLA": {
+        "ticker": "TSLA",
+        "price": 445.0,
+        "prev_close": 428.35,
+        "change_pct": 3.89,
+        "market_cap_raw": 1671297105920.0,
+        "market_cap": "$1.67T",
+        "pe_ratio": 415.88782,
+        "forward_pe": 177.00734,
+        "revenue": 97878999040.0,
+        "eps": 1.07,
+        "week_52_high": 498.83,
+        "week_52_low": 273.21,
+        "analyst_target": 412.25366,
+        "recommendation": "buy",
+        "sector": "Consumer Cyclical",
+        "company_name": "Tesla, Inc.",
+        "collected_at": "2026-05-11T22:52:58.616740+00:00"
+      }
+    },
+    "news": [
+      {
+        "source": "Yahoo Finance (AAPL)",
+        "ticker": "AAPL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AAPL)",
+        "ticker": "AAPL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AAPL)",
+        "ticker": "AAPL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AAPL)",
+        "ticker": "AAPL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AAPL)",
+        "ticker": "AAPL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (MSFT)",
+        "ticker": "MSFT",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (MSFT)",
+        "ticker": "MSFT",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (MSFT)",
+        "ticker": "MSFT",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (MSFT)",
+        "ticker": "MSFT",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (MSFT)",
+        "ticker": "MSFT",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (GOOGL)",
+        "ticker": "GOOGL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (GOOGL)",
+        "ticker": "GOOGL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (GOOGL)",
+        "ticker": "GOOGL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (GOOGL)",
+        "ticker": "GOOGL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (GOOGL)",
+        "ticker": "GOOGL",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AMZN)",
+        "ticker": "AMZN",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AMZN)",
+        "ticker": "AMZN",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AMZN)",
+        "ticker": "AMZN",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AMZN)",
+        "ticker": "AMZN",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (AMZN)",
+        "ticker": "AMZN",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (NVDA)",
+        "ticker": "NVDA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (NVDA)",
+        "ticker": "NVDA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (NVDA)",
+        "ticker": "NVDA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (NVDA)",
+        "ticker": "NVDA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (NVDA)",
+        "ticker": "NVDA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (META)",
+        "ticker": "META",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (META)",
+        "ticker": "META",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (META)",
+        "ticker": "META",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (META)",
+        "ticker": "META",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (META)",
+        "ticker": "META",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (TSLA)",
+        "ticker": "TSLA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (TSLA)",
+        "ticker": "TSLA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (TSLA)",
+        "ticker": "TSLA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (TSLA)",
+        "ticker": "TSLA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "Yahoo Finance (TSLA)",
+        "ticker": "TSLA",
+        "title": "",
+        "summary": "",
+        "link": "",
+        "published": "",
+        "category": "data"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "OpenAI revenue chief Dresser says enterprise AI adoption is 'at a tipping point'",
+        "summary": "The OpenAI Development Company is a partnership with 19 investment and consultancy firms and is majority-owned and controlled by the startup.",
+        "link": "https://www.cnbc.com/2026/05/11/open-ai-dresser-enterprise-business.html",
+        "published": "2026-05-11T20:04:09+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Google says it likely thwarted effort by hacker group to use AI for 'mass exploitation event'",
+        "summary": "Hackers are rapidly adopting AI to find previously unknown software flaws even without the help of Anthropic's powerful Mythos model.",
+        "link": "https://www.cnbc.com/2026/05/11/google-thwarts-effort-hacker-group-use-ai-mass-exploitation-event.html",
+        "published": "2026-05-11T21:13:21+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "OpenAI trial: Nadella says Musk never raised concerns to him about Microsoft investment",
+        "summary": "Elon Musk named Microsoft as a defendant in his lawsuit against OpenAI",
+        "link": "https://www.cnbc.com/2026/05/11/microsoft-ceo-satya-nadella-musk-altman-trial.html",
+        "published": "2026-05-11T22:03:02+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Former Tesla CFO Deepak Ahuja joins EV battery recycler Redwood Materials",
+        "summary": "Before joining Redwood Materials, Ahuja served as chief financial and business officer at the drone delivery startup Zipline for about three years.",
+        "link": "https://www.cnbc.com/2026/05/11/redwood-materials-deepak-ahuja-tesla-straubel.html",
+        "published": "2026-05-11T19:42:56+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Trump invites Elon Musk, Tim Cook, Larry Fink and other CEOs to join China trip for Xi summit",
+        "summary": "Trump invited Tesla's Elon Musk, Apple's Tim Cook and Blackrock's Larry Fink to join his China trip for talks with Xi Jinping on trade, AI and geopolitics.",
+        "link": "https://www.cnbc.com/2026/05/11/trump-ceos-elon-musk-tim-cook-larry-fink-xi-china-summit.html",
+        "published": "2026-05-11T17:24:05+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Hassett says AI isn't costing anybody their job right now — but tech layoffs keep coming",
+        "summary": "Tech companies have continued to announce layoffs tied to AI, including recent cuts from Amazon, Meta and Oracle.",
+        "link": "https://www.cnbc.com/2026/05/11/trump-white-house-hassett-ai-jobs.html",
+        "published": "2026-05-11T16:17:11+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "‘The haters will hate’: Dan Ives predicts Nasdaq 30,000 as AI rally expands",
+        "summary": "A solid tech earnings season has seen investor jitters earlier this year evaporate",
+        "link": "https://www.cnbc.com/2026/05/11/the-haters-will-hate-dan-ives-predicts-nasdaq-rally.html",
+        "published": "2026-05-11T12:53:03+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Micron shares are rising again despite weak overall market. Why memory chip rally seems unstoppable",
+        "summary": "Micron is among the \"most hyped stocks on social media\" as retail enthusiasm simmers",
+        "link": "https://www.cnbc.com/2026/05/11/micron-shares-are-rising-again-despite-weak-overall-market-why-memory-chip-rally-seems-unstoppable.html",
+        "published": "2026-05-11T14:45:06+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Cerebras bumps up IPO range as it looks to raise up to $4.8 billion",
+        "summary": "Elon Musk was open to having OpenAI merge with Cerebras. Now Cerebras is looking at going public as soon as this week.",
+        "link": "https://www.cnbc.com/2026/05/11/cerebras-raises-ipo-range.html",
+        "published": "2026-05-11T13:46:26+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Trump rejects Iran's proposal, Alphabet's rally, Target 'baby boutiques' and more in Morning Squawk",
+        "summary": "Here are five key things investors need to know to start the trading day.",
+        "link": "https://www.cnbc.com/2026/05/11/5-things-to-know-before-the-market-opens.html",
+        "published": "2026-05-11T12:11:57+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "OpenAI to give EU access to new cyber model but Anthropic still holding out on Mythos",
+        "summary": "OpenAI announced on Thursday it was granting preview access to its latest cyber model to vetted cybersecurity teams.",
+        "link": "https://www.cnbc.com/2026/05/11/openai-eu-cyber-model-anthropic-mythos-gpt.html",
+        "published": "2026-05-11T11:38:06+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Circle raises $222 million from BlackRock, Apollo and others in Arc token presale valued at $3 billion",
+        "summary": "Andreessen Horowitz served as the lead investor in the sale with a $75 million investment. Other investors include BlackRock and Apollo Funds.",
+        "link": "https://www.cnbc.com/2026/05/11/circle-closes-222-million-from-blackrock-apollo-for-arc-blockchain.html",
+        "published": "2026-05-11T20:07:02+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Nintendo plunges 8% after Switch 2 price hike and weak sales forecast",
+        "summary": "Investors are concerned about Nintendo's outlook of lower Switch 2 sales in the current fiscal year, driven by price increases for the console.",
+        "link": "https://www.cnbc.com/2026/05/11/nintendo-stock-switch-2-price-rise-weak-sales-forecast.html",
+        "published": "2026-05-11T20:39:08+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Do you need a chief AI officer? Here's how the tech is changing boardrooms",
+        "summary": "AI may now be coming for the C-suite, according to a report published Monday by IBM, which found that most companies were now staffing chief AI officer roles.",
+        "link": "https://www.cnbc.com/2026/05/11/heres-how-artificial-intelligence-is-changing-boardrooms.html",
+        "published": "2026-05-11T06:07:53+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Nvidia embraces role of AI investor, pushing past $40 billion in equity bets this year",
+        "summary": "Nvidia is pouring billions of dollars at a time into companies across the AI infrastructure stack, while also signing commercial deals with them.",
+        "link": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html",
+        "published": "2026-05-10T22:57:47+00:00"
+      },
+      {
+        "source": "CNBC Technology",
+        "category": "breaking",
+        "title": "Nintendo hikes Switch 2 prices and expects console sales to decline as memory crunch bites",
+        "summary": "Nintendo said the price of the Switch 2 in the U.S. will rise  from $449.99 to $499.99. In Japan, Nintendo will hike the price from 49,980 yen to 59,980 yen.",
+        "link": "https://www.cnbc.com/2026/05/08/nintendo-switch-2-price-hike-sales-fall-memory-crunch.html",
+        "published": "2026-05-11T05:48:02+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "What’s Next for Telecom and Digital Infrastructure",
+        "summary": "Grain Management CEO and founder David Grain discusses what's next for telecom and digital infrastructure. He sees real workloads absorbing infrastructure and says they're 'very' active in deploying capital. He speaks with Katie Greifeld and Romaine Bostick on \"The Close.\" (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/what-s-next-for-telecom-and-digital-infrastructure-video",
+        "published": "2026-05-11T22:35:01+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "GitLab Says Will Cut Jobs to Spend on Growth in ‘Agentic Era’",
+        "summary": "GitLab Inc., which makes software that helps developers on coding projects, said it is cutting jobs to free up money to spend on the market opportunity for artificial intelligence agents.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/gitlab-says-will-cut-jobs-to-spend-on-growth-in-agentic-era",
+        "published": "2026-05-11T21:31:40+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Software Firm ServiceNow Plans to Raise $4 Billion in Bond Sale",
+        "summary": "Software company ServiceNow Inc. is looking to raise about $4 billion from a potential US high-grade bond sale tied to the software firm’s recent acquisitions.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/software-firm-servicenow-plans-to-raise-4-billion-in-bond-sale",
+        "published": "2026-05-11T20:43:50+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Emerging Currencies Drop as Iran Conflict Dims Risk Appetite",
+        "summary": "Emerging-market currencies weakened against the dollar on Monday as oil advanced and tensions in the Middle East escalated, with President Donald Trump and Iran’s leadership rejecting each other’s peace proposals and signaling no end in sight to the 10-week-old war.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/emerging-stocks-set-to-close-at-record-high-on-tech-bets",
+        "published": "2026-05-11T05:27:57+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "UK Fintech Wise Makes US Trading Debut With Dual Listing",
+        "summary": "Wise Group Plc made its trading debut in the US with a Nasdaq listing as the financial technology firm tries to take advantage of a larger stock market and its legions of investors.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/uk-fintech-wise-makes-us-trading-debut-with-dual-listing",
+        "published": "2026-05-11T10:07:17+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Verizon’s Global Hybrid Bond-Sale Push Reaches $12 Billion",
+        "summary": "Verizon Communications Inc. has raised about $12 billion from hybrid debt sales over the past six months as the US telecommunications company explores ways to support its investment-grade ratings.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/verizon-kicks-off-us-dollar-high-grade-bond-sale-to-refinance",
+        "published": "2026-05-11T13:01:13+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Consumers Still Buying Beauty Products That 'Matter to Them,' Says Sally Beauty CEO",
+        "summary": "Denise Paulonis, President and CEO of Sally Beauty Holdings, said that the beauty industry remains resilient to concerns around affordability as consumer remain consistent in buying beauty products that 'matter to them' like hair dye and nail accessories even if they are not replacing pricier items. Paulonis said that she remains optimistic about her company's growth as consumers explore new e-com...",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/consumers-still-buying-products-that-matter-paulonis-video",
+        "published": "2026-05-11T20:10:56+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "AI Chipmaker Cerebras Seeks $4.8 Billion in Upsized IPO | Bloomberg Tech 5/11/2026",
+        "summary": "Bloomberg’s Caroline Hyde and Ed Ludlow discuss Cerebras’ increased IPO plans as the AI chipmaker and data center operator boosts its offering plans by one-third to as much as $4.8 billion. Plus, Circle CEO Jeremy Allaire explains what drove the company’s first-quarter revenue and his vision of an agent-led future. And, Google researchers say they have uncovered the first-ever zero-day attack buil...",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/bloomberg-tech-5-11-2026-video",
+        "published": "2026-05-11T20:09:41+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Microsoft Targeted $92 Billion Return on Early OpenAI Investment",
+        "summary": "Microsoft Corp. targeted a $92 billion return from its large early investments in OpenAI, a landmark arrangement that helped usher in the current AI era.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/microsoft-targeted-92-billion-return-on-early-openai-investment",
+        "published": "2026-05-11T19:28:01+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Fervo Energy Boosts IPO Target to $1.8 Billion",
+        "summary": "Fervo Energy Co., a geothermal energy developer, is seeking to raise as much as $1.82 billion in a US initial public offering, raising its target from $1.33 billion.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/bill-gates-backed-fervo-energy-boosts-ipo-target-to-1-8-billion",
+        "published": "2026-05-11T13:05:02+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Meta Sued by California County Over ‘Scam’ Advertisements",
+        "summary": "Meta Platforms Inc. was sued by Santa Clara County, California, over allegations that the company “knowingly facilitates and profits from billions of scam advertisements” on its social networks, including Facebook and Instagram.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/meta-sued-by-california-county-over-scam-advertisements",
+        "published": "2026-05-11T17:38:59+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Rezolve AI CEO Weighs In on Hostile Bid for Commerce.com",
+        "summary": "Rezolve AI CEO Dan Wagner discusses the reason behind his company’s hostile bid for Commerce.com, including what he called an “embarrassing growth rate” by the takeover target. He joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.” (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/rezolve-ai-ceo-weighs-in-on-bid-for-commerce-com-video",
+        "published": "2026-05-11T19:13:36+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Angi Becomes Latest Company to Announce AI Pivot",
+        "summary": "Angi CEO Jeff Kip joins Bloomberg’s Carol Massar and Tim Stenovec to discuss the company’s latest earnings, AI efforts, and Angi’s outlook on the housing market.  (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/angi-becomes-latest-company-to-announce-ai-pivot-video",
+        "published": "2026-05-11T19:08:05+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Sutskever Says His OpenAI Stake Worth About $7 Billion",
+        "summary": "OpenAI co-founder and former chief scientist Ilya Sutskever said his stake in the ChatGPT maker is worth roughly $7 billion, making him one of the largest individual shareholders in the artificial intelligence startup.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
+        "published": "2026-05-11T19:04:00+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "A $400 AI Bet That’s a High-Stakes Wager on the Future of Work",
+        "summary": "AI is set to have a profound impact on the workforce and productivity, but by how much and how quickly are still being debated and bet on by academics. Bloomberg’s Stacey Vanek Smith describes the $400 wager on the future of work. She joins Caroline Hyde and Ed Ludlow on “Bloomberg Tech.\" (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/a-400-ai-bet-that-s-a-wager-on-the-future-of-work-video",
+        "published": "2026-05-11T18:42:06+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Rates Just One Factor for Stablecoin Growth, Says Circle CEO",
+        "summary": "Stablecoin issuer Circle says it’s moving closer to a future where AI agents can make financial transactions. The company saw a 20% revenue surge in its first-quarter, though net income declined amid volatility in cryptocurrency markets. Circle CEO Jeremy Allaire speaks with Caroline Hyde and Ed Ludlow on “Bloomberg Tech.”  (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/rates-just-one-factor-for-stablecoin-growth-circle-ceo-video",
+        "published": "2026-05-11T18:20:06+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "BMO's Schleif Says AI Stampede Fueling Rally Beyond Tech",
+        "summary": "Carol Schleif, chief market strategist for Bank of Montreal, says the buildout of AI infrastructure is lifting a broad cross section of stocks, not just a handful of tech names. She speaks with Ed Ludlow and Caroline Hyde on “Bloomberg Tech.” (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/bmo-s-schleif-says-ai-stampede-fueling-rally-beyond-tech-video",
+        "published": "2026-05-11T17:12:27+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Market Optimistic on AI Surge, Ignoring Risks: Noviskis",
+        "summary": "Jessica Noviskis, OCIO portfolio strategist at Marquette Associates, says market optimism is largely driven by strong earnings and the resurgence of the AI sector despite potential risks. \"We are entirely pricing markets off of the good things that are happening,\" she said, \"and ignoring the risks and the war and the potential for inflation and maybe rate hikes.\" (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/market-optimistic-on-ai-surge-ignoring-risks-noviskis-video",
+        "published": "2026-05-11T16:50:45+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Michael Burry Warns of Stock Crash as Tech Jump Echoes 2000 Peak",
+        "summary": "Michael Burry, the investor made famous in The Big Short, is warning that the Nasdaq 100 Index is headed toward a dramatic reversal after a “parabolic” surge that has driven technology valuations to unsustainable heights.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/michael-burry-warns-of-stock-crash-as-tech-jump-echoes-2000-peak",
+        "published": "2026-05-11T15:48:55+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Investing in the Age of AI Disruption",
+        "summary": "Mike Pyle, Deputy Head of BlackRock's Portfolio Management Group joined Bloomberg Open Interest to explain why AI isn’t a bubble and how it’s  reshaping the global economy. He breaks down the short-term inflation hit vs. long-term productivity boom, and why traditional 60/40 portfolios are failing to diversify in an AI-dominated market. He also warns investors may be underestimating the economic r...",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/investing-in-the-age-of-ai-disruption-video",
+        "published": "2026-05-11T15:39:51+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Bartels Expects Secular Bear Market to Start Next Decade",
+        "summary": "Mary Ann Bartels, chief investment strategist at Sanctuary Wealth, shares her long term outlook for stocks. She believes a secular bear market will kickoff the next decade after a nice rally over the next four years. She speaks on \"Bloomberg Open Interest.\" (Source: Bloomberg)",
+        "link": "https://www.bloomberg.com/news/videos/2026-05-11/bartels-expects-secular-bear-market-to-start-next-decade-video",
+        "published": "2026-05-11T15:03:32+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Novo Hands Over Parkinson’s Therapy to Zuckerberg-Backed Startup",
+        "summary": "Novo Nordisk A/S agreed to hand over an experimental therapy for Parkinson’s disease to a Mark Zuckerberg-backed AI startup to potentially speed its development.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/novo-hands-over-parkinson-s-therapy-to-zuckerberg-backed-startup",
+        "published": "2026-05-11T12:00:00+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Amazon Prepares to Sell First Swiss Franc Bond in AI Push",
+        "summary": "Amazon.com, Inc. is preparing to issue Swiss franc bonds for the first time, as Big Tech hyperscalers turn to new debt markets to fund artificial intelligence spending.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/amazon-prepares-to-issue-its-first-swiss-franc-bond-in-ai-push",
+        "published": "2026-05-11T09:04:39+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "AI Chipmaker Cerebras Seeks $4.8 Billion in Upsized US IPO",
+        "summary": "Cerebras Systems Inc. increased the size of its initial public offering, now seeking to raise as much as $4.8 billion, as demand for the artificial intelligence chipmaker and data center operator’s shares continues to build.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/ai-chipmaker-cerebras-systems-seeks-4-8-billion-in-upsized-ipo",
+        "published": "2026-05-11T12:23:28+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Retail Is Flooding Into the Chipmaker Rally as Moves Get Extreme",
+        "summary": "Retail traders largely sat out a record-setting advance in chip stocks in April. Now they’re diving in just as worries mount that the group’s rally may be losing steam.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/retail-floods-into-silly-chipmaker-rally-as-moves-get-extreme",
+        "published": "2026-05-11T11:32:12+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "OpenAI to Buy Consulting Firm for JV With Private Equity",
+        "summary": "OpenAI will acquire a consulting company to contribute to a new private equity-backed joint venture to help drive adoption of its artificial intelligence software across more businesses.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/openai-to-buy-consulting-firm-for-private-equity-joint-venture",
+        "published": "2026-05-11T13:00:00+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "Google Says Hacker Used Mythos-Like AI for Software Tool Exploit",
+        "summary": "Security researchers at Alphabet Inc.’s Google said they believe a cybercrime group used artificial intelligence to create a hacking tool that can bypass defenses in a widely-used tool to administer computer systems.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/hackers-used-ai-to-build-zero-day-attack-google-researchers-say",
+        "published": "2026-05-11T13:02:13+00:00"
+      },
+      {
+        "source": "Bloomberg Technology",
+        "category": "breaking",
+        "title": "India Considering Emergency Measures to Save Foreign Exchange",
+        "summary": "India is considering emergency steps to shore up foreign-exchange reserves, including curbing non-essential imports like gold and electronic goods, and hiking fuel prices, to help cushion the economy from the fallout of the Iran war, people familiar with the matter said.",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-11/india-considering-emergency-measures-to-save-foreign-exchange",
+        "published": "2026-05-11T12:58:39+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Finally, texts between Android and iPhone users can be end-to-end encrypted",
+        "summary": "Google had urged Apple for years to support RCS texting to make communication between each company's devices more seamless.",
+        "link": "https://techcrunch.com/2026/05/11/finally-texts-between-android-and-iphone-users-can-be-end-to-end-encrypted/",
+        "published": "2026-05-11T21:59:34+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Daniel Ek-backed defense tech Helsing to raise $1.2B at $18B valuation",
+        "summary": "Five-year old European military drone startup Helsing is close to raising another monster round.",
+        "link": "https://techcrunch.com/2026/05/11/daniel-ek-backed-defense-tech-helsing-to-raise-1-2b-at-18b-valuation/",
+        "published": "2026-05-11T17:38:32+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Bravo is creating unscripted microdramas for the Peacock app",
+        "summary": "As microdrama apps like ReelShort and DramaBox quietly rake in billions, Peacock announced on Monday that it is launching two unscripted Bravo microdramas, which will stream in the Peacock app.",
+        "link": "https://techcrunch.com/2026/05/11/bravo-is-creating-unscripted-microdramas-for-the-peacock-app/",
+        "published": "2026-05-11T17:14:01+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Digg tries again, this time as an AI news aggregator",
+        "summary": "In an email to beta testers, the company said the site's goal is to \"track the most influential voices in a space\" and to surface the news that's actually worth \"paying attention to.\"",
+        "link": "https://techcrunch.com/2026/05/11/digg-tries-again-this-time-as-an-ai-news-aggregator/",
+        "published": "2026-05-11T17:02:35+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "‘Too early’ to talk IPO, Redwood Materials’ incoming CFO says",
+        "summary": "The battery-recycling and energy-storage company has hired former Tesla finance chief Deepak Ahuja, reuniting him with former Tesla CTO JB Straubel.",
+        "link": "https://techcrunch.com/2026/05/11/too-early-to-talk-ipo-for-redwood-materials-incoming-cfo-says/",
+        "published": "2026-05-11T16:00:00+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "NYT’s Wordle to become a TV game show",
+        "summary": "This will be the first time that The Times has collaborated with a TV broadcaster for an entertainment-based program, representing yet another pivot in the media company's attempt to build a sustainable digital subscription business as print revenue continues to decline.",
+        "link": "https://techcrunch.com/2026/05/11/nyts-wordle-to-become-a-tv-game-show/",
+        "published": "2026-05-11T14:23:25+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "TikTok launches an ad-free subscription plan in the UK",
+        "summary": "Users who sign up for the plan won’t see ads on TikTok, and their data won’t be used for advertising purposes.",
+        "link": "https://techcrunch.com/2026/05/11/tiktok-launches-an-ad-free-subscription-plan-in-the-uk/",
+        "published": "2026-05-11T14:05:47+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "There aren’t enough rockets for space data centers — Cowboy Space raised $275M to build them",
+        "summary": "The apparently insatiable demand for AI compute has data center entrepreneurs looking to the stars. There's a key problem: There aren't enough rockets to put data centers in orbit around Earth, and they're too expensive.",
+        "link": "https://techcrunch.com/2026/05/11/there-arent-enough-rockets-for-space-data-centers-cowboy-space-raised-275-million-to-build-them/",
+        "published": "2026-05-11T13:00:00+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Discord launches Nitro Rewards, giving subscribers access to the base tier of Xbox Game Pass for no extra cost",
+        "summary": "Discord's Nitro Rewards program will give Nitro subscribers access to Xbox Game Pass and discounts from Logitech, SteelSeries, and other gaming brands.",
+        "link": "https://techcrunch.com/2026/05/11/discord-launches-nitro-rewards-giving-subscribers-access-to-the-base-tier-of-xbox-game-pass-for-no-extra-cost/",
+        "published": "2026-05-11T13:00:00+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Venmo’s biggest makeover in years comes at a very interesting time",
+        "summary": "The timing is notable. PayPal, which owns Venmo, is restructuring to spin Venmo off as a stand-alone business unit — a move widely seen as laying the groundwork for a potential sale. Stripe has reportedly expressed interest in buying PayPal outright.",
+        "link": "https://techcrunch.com/2026/05/11/venmos-biggest-makeover-in-years-comes-at-a-very-interesting-time/",
+        "published": "2026-05-11T12:00:00+00:00"
+      },
+      {
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Korea’s biggest manufacturers back Config, the TSMC of robot data",
+        "summary": "Instead of building robots themselves, the team is focused on a simpler goal — providing data that robots need to learn and operate. They believe that better data will be key to making robots more useful.",
+        "link": "https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/",
+        "published": "2026-05-11T10:58:00+00:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Yarbo says it will remove the intentional backdoor from its robot lawn mower",
+        "summary": "The company behind the robot lawn mower that ran me over has changed its tune. Yarbo now plans to completely remove the remote backdoor access that could have let bad actors reprogram the robot over the internet. Yarbo customers will be able to decide whether that feature even gets installed in the first place, co-founder [&#8230;]",
+        "link": "https://www.theverge.com/tech/928289/yarbo-remove-robot-lawn-mower-backdoor",
+        "published": "2026-05-11T18:40:20-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Here&#8217;s what Mira Murati&#8217;s AI company is up to",
+        "summary": "Thinking Machines, the AI company founded by former OpenAI CTO Mira Murati, announced Monday that it's working on something called \"interaction models.\" The idea behind interaction models, according to Thinking Machines, is that they will let people \"collaborate with AI the way we naturally collaborate with each other - they continuously take in audio, video, [&#8230;]",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/928309/mira-murati-thinking-machines-ai-interaction-model",
+        "published": "2026-05-11T18:19:15-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Govee’s new portable smart lamp is on sale for the first time",
+        "summary": "If you’ve always liked the idea of the Philips Hue Go portable lamp but couldn’t justify the $100+ price tag, Govee recently released a much cheaper alternative, the Govee Table Lamp Classic, and it’s already receiving its first discount. Right now, you can pick the rechargeable smart lamp up at Amazon for $63.99 ($16 off), [&#8230;]",
+        "link": "https://www.theverge.com/gadgets/928249/govee-table-lamp-classic-deal-sale",
+        "published": "2026-05-11T15:56:28-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Palantir&#8217;s true believers are wearing this jacket",
+        "summary": "In late April, Palantir - the software company that, in recent years, has perhaps become best known for its defense industry contracts and work with Immigration and Customs Enforcement - announced that it would be adding new products to its merch store. The latest offering was a cotton chore coat. At $239 and in bright [&#8230;]",
+        "link": "https://www.theverge.com/report/928026/palantir-chore-coat",
+        "published": "2026-05-11T14:26:04-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Apple brings encrypted RCS chats to iPhone",
+        "summary": "Apple now lets you have encrypted RCS conversations with Android users through the Messages app on iOS. As part of iOS 26.5, which was released on Monday, Apple added support for end-to-end encrypted RCS messaging in beta, meaning that Apple and Google can't see your messages while they're sent. With iOS 26.5, you'll see a [&#8230;]",
+        "link": "https://www.theverge.com/tech/928141/apple-ios-26-5-rcs-messages-iphone-google-android",
+        "published": "2026-05-11T13:57:56-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Texas sues Netflix for advertising &#8216;bait and switch&#8217; and spying",
+        "summary": "Texas Attorney General Ken Paxton has filed a lawsuit against Netflix, accusing the company of turning its back on its promise to remain ad-free and safe for kids. The lawsuit, filed on Monday, claims Netflix has \"opened Texans' data for inspection by the same Big Ad Tech community it once criticized for exploiting users in [&#8230;]",
+        "link": "https://www.theverge.com/streaming/928071/texas-netflix-lawsuit-privacy",
+        "published": "2026-05-11T13:04:22-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Google stopped a zero-day hack that it says was developed with AI",
+        "summary": "For the first time, Google says it has spotted and stopped a zero-day exploit developed with AI. According to a report from Google Threat Intelligence Group (GTIG), \"prominent cyber crime threat actors\" were planning to use the vulnerability for a \"mass exploitation event\" that would have allowed them to bypass two-factor authentication on an unnamed [&#8230;]",
+        "link": "https://www.theverge.com/tech/928007/google-ai-zero-day-exploit-stopped",
+        "published": "2026-05-11T12:09:42-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "A million baby monitors and security cameras were easily viewable by hackers",
+        "summary": "A baby's eyes peer directly into the camera lens. A kid with a striped shirt looks up, then away. A boy in a policeman's costume, a gold star on his chest. A messy bedroom that reminds me of my own daughters, with an unmade bunk bed, a little girl's hat and headband, and Hello Kitty [&#8230;]",
+        "link": "https://www.theverge.com/tech/926487/meari-technology-hack-baby-monitor-security-camera",
+        "published": "2026-05-11T12:00:00-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "7 of our favorite deals from Amazon’s Pet Days sale",
+        "summary": "A big part of my job here at The Verge is to find deals on tech that readers will like. But in my personal life, I’m not spending anywhere near as much money on tech as I am on food, litter, and other supplies for our two cats. Sad, but true. If your life is [&#8230;]",
+        "link": "https://www.theverge.com/gadgets/927788/amazon-pet-days-tech-gadgets-cat-dog-deal-sale",
+        "published": "2026-05-11T11:45:32-04:00"
+      },
+      {
+        "source": "The Verge",
+        "category": "industry",
+        "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+        "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. Elon Musk, his financial [&#8230;]",
+        "link": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+        "published": "2026-05-11T11:27:12-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Bank of Cyprus Holdings Public Limited Company (BKCYF) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902670-bank-of-cyprus-holdings-public-limited-company-bkcyf-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:40:45-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Mitsui & Co., Ltd. (MITSY) Q4 2026 Earnings Call Prepared Remarks Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902669-mitsui-and-co-ltd-mitsy-q4-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:40:44-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Hypoport AG (HYPOF) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902560-hypoport-ag-hypof-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:40:42-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Brookfield Asset Management: Scoop Up This Dividend Growth Monster Now",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902647-brookfield-asset-management-scoop-up-this-dividend-growth-monster-now?source=feed_all_articles",
+        "published": "2026-05-11T18:38:29-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "RingCentral: Applied AI Products Are Taking Off",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902646-ringcentral-applied-ai-products-are-taking-off?source=feed_all_articles",
+        "published": "2026-05-11T18:37:10-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Sharplink, Inc. (SBET) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902604-sharplink-inc-sbet-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:30:43-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Erasca: 'Hold' On Substantial RAS Targeting ERAS-0015 But With Two Key Risks",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902644-erasca-hold-on-substantial-ras-targeting-eras-0015-but-with-two-key-risks?source=feed_all_articles",
+        "published": "2026-05-11T18:25:30-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "The Arena Group Holdings, Inc. (AREN) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902661-the-arena-group-holdings-inc-aren-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:10:43-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "9-11% Monthly Dividends For Retirement Income: One To Buy And One To Sell",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902641-9-11-percent-monthly-dividends-for-retirement-income-one-to-buy-and-one-to-sell?source=feed_all_articles",
+        "published": "2026-05-11T18:05:10-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Starwood Property Trust Q1: Struggling To Digest",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902640-starwood-property-trust-q1-struggling-to-digest?source=feed_all_articles",
+        "published": "2026-05-11T18:02:41-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "flyExclusive, Inc. 2026 Q1 - Results - Earnings Call Presentation",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902658-flyexclusive-inc-2026-q1-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-05-11T18:01:58-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "AST SpaceMobile, Inc. 2026 Q1 - Results - Earnings Call Presentation",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902657-ast-spacemobile-inc-2026-q1-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-05-11T18:01:43-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Babcock & Wilcox Enterprises, Inc. 2026 Q1 - Results - Earnings Call Presentation",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902656-babcock-and-wilcox-enterprises-inc-2026-q1-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-05-11T18:01:29-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Kodiak Gas Services, Inc. (KGS) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902559-kodiak-gas-services-inc-kgs-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:58-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Weebit Nano Limited (WBTNF) Q3 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902653-weebit-nano-limited-wbtnf-q3-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:56-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Redefine Properties Limited (RDPEF) Q2 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902457-redefine-properties-limited-rdpef-q2-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:55-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Radiant Logistics, Inc. (RLGT) Q3 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902652-radiant-logistics-inc-rlgt-q3-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:53-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Evonik Industries AG (EVKIY) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4901297-evonik-industries-ag-evkiy-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:51-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Tenaz Energy Corp. (TNZ:CA) Q1 2026 Earnings Call Prepared Remarks Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902635-tenaz-energy-corp-tnz-ca-q1-2026-earnings-call-prepared-remarks-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:50-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Rekor Systems, Inc. (REKR) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902645-rekor-systems-inc-rekr-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:46-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "OHB SE (OHBTF) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902650-ohb-se-ohbtf-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T18:00:42-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Telefônica Brasil S.A. (VIV) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902499-telefonica-brasil-s-a-viv-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T17:50:48-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Micron: This Is What Peak-Cycle Risk Looks Like",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902636-micron-this-is-what-peak-cycle-risk-looks-like?source=feed_all_articles",
+        "published": "2026-05-11T17:50:15-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "monday.com Ltd. (MNDY) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902475-monday-com-ltd-mndy-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T17:40:42-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Ares Capital's Financial Performance Likely Remains Trapped",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902634-ares-capitals-financial-performance-likely-remains-trapped?source=feed_all_articles",
+        "published": "2026-05-11T17:35:33-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "LY Corporation (YAHOY) Q4 2025 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4901280-ly-corporation-yahoy-q4-2025-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T17:30:42-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Powell Industries Q2 Review: Still A Long Growth Runway, But I'm Not Adding Here",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902632-powell-industries-q2-review-still-a-long-growth-runway-but-im-not-adding-here?source=feed_all_articles",
+        "published": "2026-05-11T17:25:43-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Fincantieri S.p.A. (FNCNF) Q1 2026 Earnings Call Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902545-fincantieri-s-p-a-fncnf-q1-2026-earnings-call-transcript?source=feed_all_articles",
+        "published": "2026-05-11T17:20:44-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "AvePoint Should Recover From Here",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902631-avepoint-should-recover-from-here?source=feed_all_articles",
+        "published": "2026-05-11T17:16:37-04:00"
+      },
+      {
+        "source": "Seeking Alpha",
+        "category": "analysis",
+        "title": "Darling Ingredients Inc. (DAR) Analyst/Investor Day Transcript",
+        "summary": "",
+        "link": "https://seekingalpha.com/article/4902565-darling-ingredients-inc-dar-analyst-investor-day-transcript?source=feed_all_articles",
+        "published": "2026-05-11T17:10:43-04:00"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "US Supreme Court clears way for Alabama Republicans to pursue new voting map",
+        "summary": "",
+        "link": "https://www.investing.com/news/politics-news/us-supreme-court-clears-way-for-alabama-republicans-to-pursue-new-voting-map-4678634",
+        "published": "2026-05-11T22:19:10"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Conduent Q1 2026 slides: margins expand despite revenue miss",
+        "summary": "",
+        "link": "https://www.investing.com/news/company-news/conduent-q1-2026-slides-margins-expand-despite-revenue-miss-93CH-4678698",
+        "published": "2026-05-11T22:19:04"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Byron Allen to buy majority stake in BuzzFeed for $120 million, shares nearly triple",
+        "summary": "",
+        "link": "https://www.investing.com/news/stock-market-news/byron-allen-to-buy-majority-stake-in-buzzfeed-for-120-million-shares-nearly-triple-4678697",
+        "published": "2026-05-11T22:18:53"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Russia downgrades 2026 economic growth forecast to 0.4% from 1.3%, deputy PM says",
+        "summary": "",
+        "link": "https://www.investing.com/news/economy-news/russia-downgrades-2026-economic-growth-forecast-to-04-from-13-deputy-pm-says-4678535",
+        "published": "2026-05-11T22:18:32"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "UL Solutions EVP Gitte Schjotz sells $831,647 in class A common stock",
+        "summary": "",
+        "link": "https://www.investing.com/news/insider-trading-news/ul-solutions-evp-gitte-schjotz-sells-831647-in-class-a-common-stock-93CH-4678696",
+        "published": "2026-05-11T22:16:29"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Bridgewater Bancshares COO Lisa Salazar sells $77,210 of stock",
+        "summary": "",
+        "link": "https://www.investing.com/news/insider-trading-news/bridgewater-bancshares-coo-lisa-salazar-sells-77210-of-stock-93CH-4678695",
+        "published": "2026-05-11T22:16:11"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Form 13G RENX ENTERPRISES CORP. For: 11 May",
+        "summary": "",
+        "link": "https://www.investing.com/news/filings/form-13g-renx-enterprises-corp-for-11-may-93CH-4678694",
+        "published": "2026-05-11T22:15:40"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Form 13G ENVOY MEDICAL For: 11 May",
+        "summary": "",
+        "link": "https://www.investing.com/news/filings/form-13g-envoy-medical-for-11-may-93CH-4678693",
+        "published": "2026-05-11T22:15:30"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Form 13G Canton Strategic Holdings For: 11 May",
+        "summary": "",
+        "link": "https://www.investing.com/news/filings/form-13g-canton-strategic-holdings-for-11-may-93CH-4678692",
+        "published": "2026-05-11T22:15:30"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Form 13G Ascent Solar Technologies For: 11 May",
+        "summary": "",
+        "link": "https://www.investing.com/news/filings/form-13g-ascent-solar-technologies-for-11-may-93CH-4678691",
+        "published": "2026-05-11T22:15:27"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Analyst Report: Jacobs Solutions Inc",
+        "summary": "",
+        "link": "https://finance.yahoo.com/research/reports/ARGUS_3667_AnalystReport_1778516821000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+        "published": "2026-05-11T16:27:01+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Analyst Report: Fidelity Natl Information Serv",
+        "summary": "",
+        "link": "https://finance.yahoo.com/research/reports/ARGUS_4020_AnalystReport_1778516821000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+        "published": "2026-05-11T16:27:01+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Best money market account rates today, May 11, 2026 (Earn up to 4.01% APY)",
+        "summary": "",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-money-market-account-rates-today-monday-may-11-2026-100000260.html",
+        "published": "2026-05-11T10:00:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Best CD rates today, May 11, 2026 (Lock in up to 4% APY)",
+        "summary": "",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-may-11-2026-100000478.html",
+        "published": "2026-05-11T10:00:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Mortgage and refinance interest rates today, May 11, 2026: Will rates rise or fall this week?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-refinance-rates-today-monday-may-11-2026-100000275.html",
+        "published": "2026-05-11T10:00:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Weekly Stock List",
+        "summary": "",
+        "link": "https://finance.yahoo.com/research/reports/ARGUS_46988_StockPicks_1778499423000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei",
+        "published": "2026-05-11T11:37:03+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "HELOC and home equity loan rates, Monday, May 11, 2026: HELOC rates close to matching 2026 low",
+        "summary": "",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-home-equity-loan-rates-today-monday-may-11-2026-100000274.html",
+        "published": "2026-05-11T10:00:00+00:00"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "AAPL",
+        "title": "[8-K] AAPL 공시 (2026-04-30)",
+        "summary": "AAPL의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-30"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "AAPL",
+        "title": "[8-K] AAPL 공시 (2026-04-20)",
+        "summary": "AAPL의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320193&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-20"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "MSFT",
+        "title": "[8-K] MSFT 공시 (2026-04-29)",
+        "summary": "MSFT의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000789019&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-29"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "GOOGL",
+        "title": "[8-K] GOOGL 공시 (2026-05-11)",
+        "summary": "GOOGL의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-05-11"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "GOOGL",
+        "title": "[8-K] GOOGL 공시 (2026-04-29)",
+        "summary": "GOOGL의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001652044&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-29"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "AMZN",
+        "title": "[8-K] AMZN 공시 (2026-04-29)",
+        "summary": "AMZN의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-29"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "AMZN",
+        "title": "[8-K] AMZN 공시 (2026-04-14)",
+        "summary": "AMZN의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001018724&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-14"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "NVDA",
+        "title": "[8-K] NVDA 공시 (2026-05-08)",
+        "summary": "NVDA의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-05-08"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "NVDA",
+        "title": "[8-K] NVDA 공시 (2026-04-27)",
+        "summary": "NVDA의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-27"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "META",
+        "title": "[8-K] META 공시 (2026-05-04)",
+        "summary": "META의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-05-04"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "META",
+        "title": "[8-K] META 공시 (2026-04-29)",
+        "summary": "META의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-29"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "META",
+        "title": "[8-K] META 공시 (2026-04-14)",
+        "summary": "META의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001326801&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-14"
+      },
+      {
+        "source": "SEC EDGAR",
+        "category": "disclosure",
+        "ticker": "TSLA",
+        "title": "[8-K] TSLA 공시 (2026-04-22)",
+        "summary": "TSLA의 8-K 공시가 SEC에 제출되었습니다.",
+        "link": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001318605&type=8-K&dateb=&owner=include&count=5",
+        "published": "2026-04-22"
+      }
+    ],
+    "fear_greed": {
+      "score": 67.0,
+      "rating": "greed",
+      "description": "CNN Fear & Greed: 67/100 (greed)"
+    },
+    "stocktwits": {},
+    "tipranks": {},
+    "stats": {
+      "total_news": 160,
+      "rss_count": 112,
+      "yf_news_count": 35,
+      "sec_count": 13,
+      "reddit_count": 0
+    }
+  },
+  "analyses": {
+    "AAPL": {
+      "ticker": "AAPL",
+      "fact_check": "Apple의 Tim Cook이 중국 방문에 초청된 것은 사실이며, 이는 미중 관계 개선의 신호로 해석될 수 있습니다. 또한, iOS의 RCS 지원은 공식 발표된 기능입니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "긍정적인 뉴스와 높은 Fear & Greed 지수, 중립적인 Stocktwits 비율을 고려한 결과입니다.",
+      "key_insight": "Apple의 최근 iOS 업데이트로 인해 Android 사용자와의 메시지 보안이 강화되었습니다. 이는 사용자 경험을 개선하고, 보안 강화로 인해 브랜드 신뢰도를 높일 수 있습니다. 또한, Tim Cook의 중국 방문은 미중 관계에 긍정적인 영향을 미칠 가능성이 있습니다.",
+      "recommendation": "매수",
+      "recommendation_reason": "긍정적인 시장 심리와 기술적 개선이 주가 상승에 기여할 것으로 예상됩니다.",
+      "risk_factors": [
+        "미중 무역 갈등 심화 가능성",
+        "경쟁사의 기술 혁신",
+        "거시 경제 불확실성"
+      ],
+      "catalysts": [
+        "중국 시장에서의 성장 기회",
+        "신기술 도입으로 인한 사용자 경험 개선"
+      ],
+      "summary_one_line": "Apple의 기술적 개선과 중국 시장에서의 기회가 주가 상승을 견인할 수 있습니다.",
+      "price": 292.68,
+      "change_pct": -0.2,
+      "market_cap": "$4.30T",
+      "pe_ratio": 35.390564,
+      "analyst_target": 305.28094,
+      "week_52_high": 294.76,
+      "week_52_low": 193.46,
+      "company_name": "Apple Inc.",
+      "analyzed_at": "2026-05-11T22:53:19.676118+00:00"
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "fact_check": "Microsoft의 OpenAI 투자에 대한 기대 수익은 공식적으로 확인되었으며, Elon Musk의 소송에 대한 언급은 과장된 측면이 있습니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "뉴스 심리와 Fear&Greed 지수는 긍정적이며, Stocktwits의 중립적인 비율을 고려했습니다.",
+      "key_insight": "Microsoft는 OpenAI와의 협력을 통해 AI 분야에서 강력한 입지를 다지고 있습니다. 최근의 시장 데이터는 긍정적이며, 분석가들의 높은 목표가는 주가 상승 가능성을 시사합니다. 그러나 시장 변동성과 AI 관련 규제는 주의가 필요합니다.",
+      "recommendation": "매수",
+      "recommendation_reason": "분석가들의 강력한 매수 추천과 긍정적인 시장 심리가 뒷받침됩니다.",
+      "risk_factors": [
+        "AI 관련 규제 강화 가능성",
+        "시장 변동성",
+        "경쟁사의 기술 발전"
+      ],
+      "catalysts": [
+        "AI 기술 발전",
+        "분석가들의 높은 목표가"
+      ],
+      "summary_one_line": "Microsoft의 AI 분야 강세와 긍정적인 시장 심리가 주가 상승을 뒷받침합니다.",
+      "price": 412.66,
+      "change_pct": -0.58,
+      "market_cap": "$3.07T",
+      "pe_ratio": 24.607037,
+      "analyst_target": 561.5561,
+      "week_52_high": 555.45,
+      "week_52_low": 356.28,
+      "company_name": "Microsoft Corporation",
+      "analyzed_at": "2026-05-11T22:53:24.641767+00:00"
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "fact_check": "Google의 AI를 이용한 해킹 시도 방어는 공식적으로 확인된 사실이며, AI 관련 보안 위협이 증가하고 있음을 보여줍니다. Apple과의 RCS 채팅 암호화 협력은 긍정적 소식입니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "긍정적인 뉴스와 강력한 분석가 추천이 있지만, 주가 하락과 보안 위협이 존재합니다.",
+      "key_insight": "Google은 AI를 활용한 보안 위협을 방어하는 데 성공했으며, 이는 기술적 리더십을 보여줍니다. Apple과의 협력으로 RCS 채팅 암호화가 가능해져 사용자 경험이 개선될 것입니다. 그러나 주가 하락은 단기적으로 투자자들에게 주의가 필요함을 시사합니다.",
+      "recommendation": "관망",
+      "recommendation_reason": "보안 위협과 주가 하락으로 인해 신중한 접근이 필요합니다.",
+      "risk_factors": [
+        "AI를 이용한 보안 위협 증가",
+        "주가 변동성",
+        "경쟁사의 기술 발전"
+      ],
+      "catalysts": [
+        "AI 보안 기술 강화",
+        "Apple과의 협력 강화"
+      ],
+      "summary_one_line": "Google의 AI 보안 방어 성공과 Apple과의 협력은 긍정적이지만, 주가 하락과 보안 위협에 주의가 필요합니다.",
+      "price": 388.64,
+      "change_pct": -3.01,
+      "market_cap": "$4.71T",
+      "pe_ratio": 29.644548,
+      "analyst_target": 427.88712,
+      "week_52_high": 402.0,
+      "week_52_low": 156.16,
+      "company_name": "Alphabet Inc.",
+      "analyzed_at": "2026-05-11T22:53:29.206247+00:00"
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "fact_check": "Amazon의 AI 관련 채권 발행은 공식 확인된 사실이며, 이는 AI 투자 확대를 위한 전략적 움직임으로 보입니다. 기술 분야의 해고 소식은 과장된 측면이 있으며, AI로 인한 직접적인 해고는 현재 확인되지 않았습니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "긍정적인 분석가 추천과 AI 투자 확대 소식이 긍정적 영향을 미쳤으나, 주가 하락과 기술 분야 해고 뉴스가 부정적 영향을 주었습니다.",
+      "key_insight": "Amazon은 AI 투자 확대를 위해 스위스 프랑 채권을 발행하며, 이는 장기적인 성장 가능성을 보여줍니다. 현재 주가는 목표가 대비 저평가되어 있으며, 이는 매수 기회로 볼 수 있습니다. 그러나 기술 분야의 해고 소식은 단기적으로 부정적 영향을 미칠 수 있습니다.",
+      "recommendation": "매수",
+      "recommendation_reason": "분석가들의 강력한 매수 추천과 AI 투자 확대는 긍정적인 성장 신호입니다.",
+      "risk_factors": [
+        "AI 투자에 따른 부채 증가",
+        "기술 분야의 지속적인 해고",
+        "시장 변동성 증가"
+      ],
+      "catalysts": [
+        "AI 투자 확대",
+        "분석가들의 강력한 매수 추천"
+      ],
+      "summary_one_line": "Amazon의 AI 투자 확대와 분석가들의 긍정적 전망은 매수 기회로 작용할 수 있습니다.",
+      "price": 268.99,
+      "change_pct": -1.35,
+      "market_cap": "$2.89T",
+      "pe_ratio": 32.137394,
+      "analyst_target": 311.55145,
+      "week_52_high": 278.56,
+      "week_52_low": 196.0,
+      "company_name": "Amazon.com, Inc.",
+      "analyzed_at": "2026-05-11T22:53:36.215522+00:00"
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "fact_check": "Nvidia의 AI 투자 확대는 공식적으로 확인되었으며, 이는 회사의 전략적 방향성을 보여줍니다. 그러나 SEC에 제출된 8-K 공시는 구체적인 내용이 공개되지 않아 추가 확인이 필요합니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "Nvidia의 AI 투자 확대와 긍정적인 시장 심리가 주가에 긍정적 영향을 미치고 있습니다.",
+      "key_insight": "Nvidia는 AI 분야에 대한 대규모 투자를 통해 미래 성장 가능성을 높이고 있습니다. 현재 시장의 긍정적인 심리와 분석가들의 높은 목표가는 주가 상승에 대한 기대감을 반영합니다. 그러나 높은 PER은 투자자에게 부담으로 작용할 수 있습니다.",
+      "recommendation": "매수",
+      "recommendation_reason": "AI 투자 확대와 긍정적인 시장 심리가 주가 상승을 지지하고 있습니다.",
+      "risk_factors": [
+        "AI 투자 실패 가능성",
+        "높은 PER로 인한 밸류에이션 부담",
+        "경쟁 심화"
+      ],
+      "catalysts": [
+        "AI 투자 확대",
+        "긍정적인 시장 심리"
+      ],
+      "summary_one_line": "Nvidia의 AI 투자 확대는 주가 상승의 주요 촉매로 작용하고 있습니다.",
+      "price": 219.44,
+      "change_pct": 1.96,
+      "market_cap": "$5.33T",
+      "pe_ratio": 44.692467,
+      "analyst_target": 269.16544,
+      "week_52_high": 222.3,
+      "week_52_low": 120.28,
+      "company_name": "NVIDIA Corporation",
+      "analyzed_at": "2026-05-11T22:53:40.637725+00:00"
+    },
+    "META": {
+      "ticker": "META",
+      "fact_check": "Meta가 캘리포니아 카운티에 의해 사기 광고로 소송을 당한 것은 사실이며, 이는 회사의 이미지에 부정적 영향을 미칠 수 있습니다. 그러나 AI 관련 해고는 현재 일자리에 큰 영향을 미치지 않는다는 분석이 있습니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "뉴스에서 부정적인 요소가 있지만, 전반적인 시장 심리와 분석가의 긍정적인 전망이 더해져 긍정적입니다.",
+      "key_insight": "Meta의 주가는 현재 시장에서 약간의 하락세를 보이고 있지만, 분석가들은 여전히 높은 목표가를 제시하고 있습니다. AI와 관련된 기술 발전과 투자 또한 긍정적인 요소로 작용할 수 있습니다. 그러나 소송과 같은 법적 문제는 주의가 필요합니다.",
+      "recommendation": "관망",
+      "recommendation_reason": "현재 소송과 AI 관련 이슈가 있어 관망이 적절합니다.",
+      "risk_factors": [
+        "캘리포니아 카운티의 소송",
+        "AI 관련 해고 증가",
+        "시장 변동성"
+      ],
+      "catalysts": [
+        "AI 기술 발전",
+        "높은 분석가 목표가"
+      ],
+      "summary_one_line": "Meta는 긍정적인 성장 가능성이 있지만, 법적 문제와 AI 관련 이슈로 인해 주의가 필요합니다.",
+      "price": 598.86,
+      "change_pct": -1.77,
+      "market_cap": "$1.52T",
+      "pe_ratio": 21.784649,
+      "analyst_target": 826.69104,
+      "week_52_high": 796.25,
+      "week_52_low": 520.26,
+      "company_name": "Meta Platforms, Inc.",
+      "analyzed_at": "2026-05-11T22:53:45.501137+00:00"
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "fact_check": "Tesla의 전 CFO인 Deepak Ahuja가 Redwood Materials에 합류한 것은 공식적으로 확인된 사실입니다. 또한, Elon Musk가 OpenAI와 관련된 소송에 Microsoft를 피고로 지명한 것도 사실입니다.",
+      "sentiment_score": 7,
+      "sentiment_reason": "뉴스 심리와 Fear&Greed 지수가 긍정적이며, Stocktwits의 Bullish 비율이 중립적이기 때문입니다.",
+      "key_insight": "Tesla의 주가는 현재 시장의 긍정적인 심리에 힘입어 상승세를 보이고 있습니다. 시가총액이 높은 수준을 유지하고 있으며, 분석가들의 목표가보다 높은 가격에 거래되고 있습니다. 그러나 높은 PER은 투자자들에게 부담이 될 수 있습니다.",
+      "recommendation": "관망",
+      "recommendation_reason": "현재 주가는 분석가 목표가를 초과하고 있어 추가 상승 여력이 제한적일 수 있습니다.",
+      "risk_factors": [
+        "높은 PER로 인한 밸류에이션 부담",
+        "기술주 전반의 변동성 증가 가능성",
+        "경쟁사의 기술 발전"
+      ],
+      "catalysts": [
+        "긍정적인 시장 심리",
+        "Tesla의 기술 혁신"
+      ],
+      "summary_one_line": "Tesla는 긍정적인 시장 심리에 힘입어 상승세를 보이고 있으나, 높은 PER로 인한 밸류에이션 부담이 존재합니다.",
+      "price": 445.0,
+      "change_pct": 3.89,
+      "market_cap": "$1.67T",
+      "pe_ratio": 415.88782,
+      "analyst_target": 412.25366,
+      "week_52_high": 498.83,
+      "week_52_low": 273.21,
+      "company_name": "Tesla, Inc.",
+      "analyzed_at": "2026-05-11T22:53:49.106440+00:00"
+    },
+    "market_summary": {
+      "market_summary": "오늘 시장은 전반적으로 긍정적인 분위기를 보이고 있으며, 특히 AI 기술에 대한 투자와 발전이 주요 기업들의 주가 상승을 이끌고 있습니다. 투자자들은 기술주 중심으로 매수 기회를 찾고 있습니다.",
+      "top_mover": "NVDA",
+      "top_mover_reason": "Nvidia의 AI 투자 확대가 주가 상승의 주요 촉매로 작용하고 있습니다.",
+      "market_mood": "강세",
+      "today_strategy": "AI 기술에 대한 긍정적인 전망을 바탕으로 기술주에 대한 매수 기회를 고려해보세요. 다만, 일부 종목의 높은 밸류에이션 부담을 감안하여 신중한 접근이 필요합니다."
+    },
+    "fear_greed": {
+      "score": 67.0,
+      "rating": "greed",
+      "description": "CNN Fear & Greed: 67/100 (greed)"
+    },
+    "analyzed_at": "2026-05-11T22:53:53.535863+00:00"
+  }
+}
