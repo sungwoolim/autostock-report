@@ -61,6 +61,38 @@
     visibility: visible;
     opacity: 1;
   }
+
+  /* 모바일 반응형 최적화 (가독성 향상) */
+  @media (max-width: 768px) {
+    body > div {
+      padding: 12px !important;
+    }
+    h1 {
+      font-size: 26px !important;
+    }
+    /* 각종 컨테이너 패딩 축소 */
+    div[style*="padding:40px"] { padding: 20px !important; }
+    div[style*="padding:28px"], div[style*="padding: 28px"] { padding: 16px !important; }
+    div[style*="padding:24px"], div[style*="padding: 24px"] { padding: 14px !important; }
+    
+    /* 2단 그리드를 1단으로 변경 */
+    div[style*="grid-template-columns:1fr 1fr"], 
+    div[style*="grid-template-columns: 1fr 1fr"] {
+      grid-template-columns: 1fr !important;
+      gap: 12px !important;
+    }
+    
+    /* 폰트 크기 미세 조정 */
+    span[style*="font-size:22px"] { font-size: 18px !important; }
+    span[style*="font-size:20px"] { font-size: 16px !important; }
+    
+    /* 모바일에서 툴팁이 화면 밖으로 나가지 않도록 조정 */
+    .tooltip-container .tooltip-text {
+      width: 220px !important;
+      margin-left: -110px !important;
+      font-size: 12px !important;
+    }
+  }
 </style>
 </head>
 <body style="margin:0;padding:0;background:#0f172a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
