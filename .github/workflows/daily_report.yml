@@ -49,24 +49,27 @@ jobs:
             python main.py --no-sheets
           fi
 
-      # 5. 생성된 HTML을 public/ 폴더로 복사 (Cloudflare Pages용)
-      - name: 📁 Copy report to public/
+      # 5. 구글 시트 동기화 스크립트 실행
+      - name: 🔄 Sync Data to Google Sheets
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python autostock_gsheet_sync.py
+
+      # 6. 아카이브 보관 (선택사항)
+      - name: 📁 Copy archive to public/
         run: |
           mkdir -p public
           TODAY=$(date +%Y%m%d)
           
-          # 최신 리포트를 index.html로 복사 (메인 URL)
-          cp output/report_${TODAY}.html public/index.html
-          
-          # 날짜별 아카이브도 보관
+          # 프론트엔드는 이제 index.html이 고정되어 있으므로 덮어씌우지 않습니다.
+          # 이전 리포트의 아카이브용으로만 복사합니다.
           cp output/report_${TODAY}.html public/report_${TODAY}.html
           
           # JSON 데이터도 복사
           cp output/report_${TODAY}.json public/report_${TODAY}.json
           cp output/report_${TODAY}.json public/latest.json
           
-          echo "✅ Report copied: public/index.html"
-          ls -la public/
+          echo "✅ Archive copied successfully"
 
       # 6. 변경사항 커밋 & 푸시
       - name: 📤 Commit and push report
