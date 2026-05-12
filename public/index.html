@@ -20,6 +20,47 @@
   .skeleton * {
     visibility: hidden;
   }
+  .tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+  }
+  .tooltip-container .tooltip-text {
+    visibility: hidden;
+    width: 260px;
+    background-color: #334155;
+    color: #f8fafc;
+    text-align: left;
+    border-radius: 8px;
+    padding: 12px;
+    position: absolute;
+    z-index: 10;
+    bottom: 135%;
+    left: 50%;
+    margin-left: -130px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    letter-spacing: normal;
+    text-transform: none;
+  }
+  .tooltip-container .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #334155 transparent transparent transparent;
+  }
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
 </style>
 </head>
 <body style="margin:0;padding:0;background:#0f172a;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
@@ -33,9 +74,10 @@
 
     <!-- 시장 지표 배지 -->
     <div style="display:flex;justify-content:center;gap:16px;margin-top:24px;flex-wrap:wrap;">
-      <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:12px 20px;">
-        <div style="font-size:11px;color:#64748b;letter-spacing:1px;margin-bottom:4px;">FEAR & GREED</div>
+      <div class="tooltip-container" style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:12px 20px;">
+        <div style="font-size:11px;color:#64748b;letter-spacing:1px;margin-bottom:4px;cursor:help;display:inline-block;border-bottom:1px dotted #64748b;">FEAR & GREED</div>
         <div id="fg-score" style="font-size:22px;font-weight:800;color:#86efac;" class="skeleton">-</div>
+        <span class="tooltip-text" style="bottom:100%;text-transform:none;letter-spacing:normal;">시장 참여자들의 투자 심리(공포와 탐욕)를 0부터 100까지의 숫자로 나타낸 CNN의 핵심 지표입니다. 0에 가까울수록 극단적 공포(매도세), 100에 가까울수록 극단적 탐욕(매수세)을 의미합니다.</span>
       </div>
       <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:12px 20px;">
         <div style="font-size:11px;color:#64748b;letter-spacing:1px;margin-bottom:4px;">MARKET MOOD</div>
@@ -50,7 +92,10 @@
 
   <!-- 시장 요약 -->
   <div style="background:linear-gradient(135deg,#312e81,#1e1b4b);border-radius:16px;padding:28px;margin-bottom:24px;border:1px solid #4338ca;">
-    <h2 style="margin:0 0 16px;color:#a5b4fc;font-size:16px;letter-spacing:2px;text-transform:uppercase;">📊 오늘의 시장 요약</h2>
+    <h2 style="margin:0 0 16px;color:#a5b4fc;font-size:16px;letter-spacing:2px;text-transform:uppercase;" class="tooltip-container">
+      📊 오늘의 시장 요약
+      <span class="tooltip-text">개별 M7 종목 분석 결과를 취합하고, CNN Fear & Greed 지수 등 거시 지표를 종합하여 산출된 시장 전반의 무드와 추천 전략입니다.</span>
+    </h2>
     <p id="market-summary" style="margin:0 0 16px;color:#e2e8f0;font-size:16px;line-height:1.7;" class="skeleton">데이터를 불러오는 중입니다. 잠시만 기다려주세요.</p>
     <div style="background:#1e1b4b;border-radius:10px;padding:16px;margin-top:16px;">
       <p style="margin:0 0 8px;color:#94a3b8;font-size:13px;">🌟 <strong style="color:#fbbf24;">오늘의 주목 종목:</strong> <span id="focus-stock" class="skeleton">로딩 중</span></p>
@@ -60,7 +105,10 @@
 
   <!-- 데이터 테이블 -->
   <div style="background:#1e293b;border-radius:16px;padding:24px;margin-bottom:24px;overflow-x:auto;">
-    <h2 style="margin:0 0 20px;color:#f1f5f9;font-size:18px;font-weight:700;">📈 M7 시장 데이터</h2>
+    <h2 style="margin:0 0 20px;color:#f1f5f9;font-size:18px;font-weight:700;" class="tooltip-container">
+      📈 M7 시장 데이터
+      <span class="tooltip-text">yfinance API를 통해 수집된 시장 지표와 애널리스트 목표가, Stocktwits 여론 분석 데이터입니다.</span>
+    </h2>
     <table style="width:100%;border-collapse:collapse;font-size:13px;">
       <thead>
         <tr style="border-bottom:2px solid #334155;">
@@ -71,7 +119,12 @@
           <th style="text-align:left;padding:12px;color:#6366f1;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;">시총</th>
           <th style="text-align:left;padding:12px;color:#6366f1;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;">PER</th>
           <th style="text-align:left;padding:12px;color:#6366f1;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;">목표가</th>
-          <th style="text-align:center;padding:12px;color:#6366f1;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;">Sentiment</th>
+          <th style="text-align:center;padding:12px;color:#6366f1;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;">
+            <div class="tooltip-container" style="cursor:help;display:inline-block;border-bottom:1px dotted #6366f1;">
+              Sentiment
+              <span class="tooltip-text" style="bottom:120%;font-weight:normal;text-transform:none;letter-spacing:normal;font-size:12px;">종목과 관련된 최근 뉴스 기사들의 긍정적/부정적 뉘앙스를 AI가 분석하여 0부터 10점 만점으로 수치화한 점수입니다. 10점에 가까울수록 호재(긍정)가 많음을 의미합니다.</span>
+            </div>
+          </th>
           <th style="text-align:center;padding:12px;color:#6366f1;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-size:11px;">추천</th>
         </tr>
       </thead>
@@ -83,11 +136,44 @@
   </div>
 
   <!-- AI 분석 카드 -->
-  <h2 style="color:#f1f5f9;font-size:20px;margin:0 0 20px;font-weight:700;">🤖 AI 심층 분석</h2>
+  <h2 style="color:#f1f5f9;font-size:20px;margin:0 0 20px;font-weight:700;" class="tooltip-container">
+    🤖 AI 심층 분석
+    <span class="tooltip-text">20개 전문 매체 기사와 재무 데이터를 GPT-4o AI가 종합 분석한 종목별 심층 리포트입니다.</span>
+  </h2>
   <div id="cards-container">
     <!-- JS로 동적 렌더링 됨 -->
     <div id="cards-skeleton" style="background:#1e293b;border-radius:16px;padding:28px;margin-bottom:24px;" class="skeleton">
       로딩 중...
+    </div>
+  </div>
+
+  <!-- AI 핵심 토픽 & 투명성 대시보드 -->
+  <div style="background:linear-gradient(135deg,#1e1b4b,#312e81);border-radius:16px;padding:28px;margin-bottom:24px;border:1px solid #4338ca;">
+    <h2 style="margin:0 0 16px;color:#a5b4fc;font-size:18px;letter-spacing:1px;text-transform:uppercase;" class="tooltip-container">
+      💡 오늘의 핵심 토픽 (Daily Insights)
+      <span class="tooltip-text">글로벌 매체 20곳의 최신 뉴스를 종합 교차 분석하여 AI가 선정한 시장을 관통하는 가장 핵심적인 주제입니다.</span>
+    </h2>
+    <div id="insights-container">
+      <p id="topic-title" style="margin:0 0 12px;color:#fbbf24;font-size:22px;font-weight:800;" class="skeleton">로딩 중...</p>
+      <p id="topic-summary" style="margin:0 0 16px;color:#e2e8f0;font-size:15px;line-height:1.7;" class="skeleton">데이터를 불러오는 중입니다.</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <span style="background:#0f172a;color:#818cf8;padding:6px 14px;border-radius:8px;font-size:13px;font-weight:700;">관련 티커: <span id="topic-ticker" class="skeleton">로딩중</span></span>
+        <span style="background:#0f172a;color:#fca5a5;padding:6px 14px;border-radius:8px;font-size:13px;font-weight:700;">단기 파급력: <span id="topic-impact" class="skeleton">로딩중</span>/10</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background:#1e293b;border-radius:16px;padding:28px;margin-bottom:24px;">
+    <h2 style="margin:0 0 16px;color:#f1f5f9;font-size:18px;font-weight:700;" class="tooltip-container">
+      🔎 투명성 대시보드 (News Sources)
+      <span class="tooltip-text">오늘 AI 분석에 사용된 모든 원문 뉴스 링크가 투명하게 공개됩니다. 링크를 클릭하여 원문을 확인할 수 있습니다.</span>
+    </h2>
+    <div style="background:#0f172a;border-radius:12px;padding:16px;max-height:300px;overflow-y:auto;border:1px solid #334155;">
+      <ul id="transparency-list" style="margin:0;padding:0;list-style:none;font-size:13px;color:#cbd5e1;line-height:1.6;">
+        <li class="skeleton" style="margin-bottom:8px;">로딩 중...</li>
+        <li class="skeleton" style="margin-bottom:8px;">로딩 중...</li>
+        <li class="skeleton" style="margin-bottom:8px;">로딩 중...</li>
+      </ul>
     </div>
   </div>
 
@@ -120,7 +206,7 @@
   };
 
   async function fetchGoogleSheetData(sheetName) {
-    const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&sheet=${sheetName}`;
+    const url = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/gviz/tq?tqx=out:json&headers=1&sheet=${sheetName}`;
     try {
       const response = await fetch(url);
       const text = await response.text();
@@ -244,31 +330,46 @@
           <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;">
             <span style="font-size:20px;font-weight:700;color:#f1f5f9;">${price}</span>
             <span style="color:${changeColor};font-weight:700;">${formattedChange}</span>
-            <span style="background:#f59e0b;color:#0f172a;padding:4px 12px;border-radius:20px;font-weight:800;">Sentiment ${sentiment}/10</span>
+            <div class="tooltip-container" style="cursor:help;">
+              <span style="background:#f59e0b;color:#0f172a;padding:4px 12px;border-radius:20px;font-weight:800;">Sentiment ${sentiment}/10</span>
+              <span class="tooltip-text" style="bottom:120%;font-size:12px;font-weight:normal;line-height:1.4;">해당 종목 관련 기사들의 긍정/부정 뉘앙스 AI 분석 수치 (0~10점)</span>
+            </div>
             <span style="background:${recoBg};color:${recoColor};padding:4px 14px;border-radius:20px;font-weight:700;">${recoIcon} ${reco}</span>
           </div>
         </div>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;">
           <div style="background:#0f172a;border-radius:10px;padding:16px;">
-            <h4 style="margin:0 0 10px;color:#fbbf24;font-size:13px;text-transform:uppercase;letter-spacing:1px;">🔍 Fact Check</h4>
+            <h4 style="margin:0 0 10px;color:#fbbf24;font-size:13px;text-transform:uppercase;letter-spacing:1px;" class="tooltip-container">
+              🔍 Fact Check
+              <span class="tooltip-text" style="bottom:120%;">수집된 20개 매체 및 SEC 공시(8-K, 10-K) 자료를 바탕으로 루머성 기사를 걸러내고 공식 확인된 팩트만 교차 검증한 결과입니다.</span>
+            </h4>
             <p style="margin:0;color:#cbd5e1;font-size:14px;line-height:1.6;">${row['Fact Check'] || '-'}</p>
           </div>
           <div style="background:#0f172a;border-radius:10px;padding:16px;">
-            <h4 style="margin:0 0 10px;color:#34d399;font-size:13px;text-transform:uppercase;letter-spacing:1px;">🎯 Key Insight</h4>
+            <h4 style="margin:0 0 10px;color:#34d399;font-size:13px;text-transform:uppercase;letter-spacing:1px;" class="tooltip-container">
+              🎯 Key Insight
+              <span class="tooltip-text" style="bottom:120%;">종목 관련 뉴스 심리(Sentiment), Fear & Greed, Reddit 커뮤니티 여론을 종합하여 투자자가 오늘 반드시 알아야 할 단기 핵심 변수를 요약한 자료입니다.</span>
+            </h4>
             <p style="margin:0;color:#cbd5e1;font-size:14px;line-height:1.6;">${row['Key Insight'] || '-'}</p>
           </div>
         </div>
 
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;">
           <div style="background:#0f172a;border-radius:10px;padding:16px;">
-            <h4 style="margin:0 0 10px;color:#f87171;font-size:13px;text-transform:uppercase;letter-spacing:1px;">⚠ 리스크 요인</h4>
+            <h4 style="margin:0 0 10px;color:#f87171;font-size:13px;text-transform:uppercase;letter-spacing:1px;" class="tooltip-container">
+              ⚠ 리스크 요인
+              <span class="tooltip-text" style="bottom:120%;">글로벌 투자은행(IB) 리포트 요약본 및 최신 뉴스의 부정/약세 뉘앙스를 심층 분석하여 산출된 단기 주가 하락 요인입니다.</span>
+            </h4>
             <ul style="margin:0;padding-left:16px;color:#fca5a5;font-size:14px;line-height:1.7;">
               ${risksHtml}
             </ul>
           </div>
           <div style="background:#0f172a;border-radius:10px;padding:16px;">
-            <h4 style="margin:0 0 10px;color:#34d399;font-size:13px;text-transform:uppercase;letter-spacing:1px;">🚀 상승 촉매</h4>
+            <h4 style="margin:0 0 10px;color:#34d399;font-size:13px;text-transform:uppercase;letter-spacing:1px;" class="tooltip-container">
+              🚀 상승 촉매
+              <span class="tooltip-text" style="bottom:120%;">글로벌 투자은행(IB) 리포트 요약본 및 최신 뉴스의 긍정/강세 뉘앙스를 심층 분석하여 산출된 단기 주가 상승 요인입니다.</span>
+            </h4>
             <ul style="margin:0;padding-left:16px;font-size:14px;line-height:1.7;">
               ${catalystsHtml}
             </ul>
@@ -279,20 +380,86 @@
     });
   }
 
+  function renderDailyInsights(data) {
+    if (!data || data.length === 0) return;
+    const latest = data[data.length - 1];
+
+    const removeSkeleton = (id) => document.getElementById(id).classList.remove('skeleton');
+
+    document.getElementById('topic-title').innerText = latest['Topic_Title'] || '오늘의 핵심 토픽 없음';
+    document.getElementById('topic-summary').innerText = latest['Full_Summary'] || '-';
+    document.getElementById('topic-ticker').innerText = latest['Related_M7_Ticker'] || 'N/A';
+    document.getElementById('topic-impact').innerText = latest['AI_Impact_Score'] || '-';
+
+    removeSkeleton('topic-title');
+    removeSkeleton('topic-summary');
+    removeSkeleton('topic-ticker');
+    removeSkeleton('topic-impact');
+  }
+
+  function renderTransparencyLog(data) {
+    const list = document.getElementById('transparency-list');
+    list.innerHTML = '';
+
+    if (!data || data.length === 0) {
+      list.innerHTML = '<li style="color:#94a3b8;">데이터가 없습니다.</li>';
+      return;
+    }
+
+    // 최신 날짜의 로그만 필터링하고 정상적인 링크/제목이 있는 항목만 선택
+    const latestDate = data[data.length - 1]['날짜'];
+    let latestData = data.filter(row => 
+      row['날짜'] === latestDate && 
+      row['기사 제목'] && 
+      row['원문 링크'] && 
+      row['원문 링크'] !== '#'
+    );
+
+    // 최신 수집 시간 순으로 내림차순 정렬
+    latestData.sort((a, b) => new Date(b['수집 시간']) - new Date(a['수집 시간']));
+
+    latestData.forEach(row => {
+      const source = row['매체명'] || 'Unknown';
+      const title = row['기사 제목'] || '제목 없음';
+      const link = row['원문 링크'] || '#';
+      const time = row['수집 시간'] || '';
+
+      const li = document.createElement('li');
+      li.style.marginBottom = '10px';
+      li.style.borderBottom = '1px solid #1e293b';
+      li.style.paddingBottom = '10px';
+      
+      let timeText = time ? `<span style="color:#64748b;font-size:11px;">[${time}]</span> ` : '';
+      
+      li.innerHTML = `
+        ${timeText}
+        <strong style="color:#38bdf8;">${source}</strong> - 
+        <a href="${link}" target="_blank" style="color:#cbd5e1;text-decoration:none;" onmouseover="this.style.color='#f1f5f9'" onmouseout="this.style.color='#cbd5e1'">
+          ${title}
+        </a>
+      `;
+      list.appendChild(li);
+    });
+  }
+
   async function init() {
     if (SPREADSHEET_ID === 'YOUR_SPREADSHEET_ID_HERE') {
       alert("HTML 파일 내부의 SPREADSHEET_ID를 실제 아이디로 변경해주세요!");
       return;
     }
     
-    // 두 시트의 데이터를 병렬로 로딩
-    const [marketData, deepData] = await Promise.all([
+    // 네 시트의 데이터를 병렬로 로딩
+    const [marketData, deepData, insightsData, transparencyData] = await Promise.all([
       fetchGoogleSheetData('Market_Summary'),
-      fetchGoogleSheetData('Deep_Analysis')
+      fetchGoogleSheetData('Deep_Analysis'),
+      fetchGoogleSheetData('Daily_Insights'),
+      fetchGoogleSheetData('Transparency_Log')
     ]);
 
     renderMarketSummary(marketData);
     renderDeepAnalysis(deepData);
+    renderDailyInsights(insightsData);
+    renderTransparencyLog(transparencyData);
   }
 
   // 페이지 로드 시 초기화

@@ -254,7 +254,76 @@ def _analyze_market_summary(
             "today_strategy": "충분한 데이터 확인 후 투자 결정을 권장합니다.",
         }
 
+# ─────────────────────────────────────────────
+#  Daily Insights (투명성 및 핵심 토픽 분석)
+# ─────────────────────────────────────────────
 
+def _analyze_daily_insights(client, news: list[dict], gpt_model: str = "gpt-4o") -> dict:
+    """수집된 전체 뉴스를 바탕으로 오늘의 핵심 토픽과 M7 영향력을 추출합니다."""
+    # 가장 최근 뉴스 위주로 최대 30개만 컨텍스트로 사용 (토큰 제한 방지)
+    sorted_news = sorted(news, key=lambda x: x.get("published", ""), reverse=True)[:30]
+    
+    if not sorted_news:
+        return {
+            "Topic_Title": "오늘의 주요 뉴스 없음",
+            "Full_Summary": "수집된 뉴스 데이터가 없습니다.",
+            "Related_M7_Ticker": "N/A",
+            "Verified_Sources": [],
+            "AI_Impact_Score": 5,
+            "AI_Impact_Reason": "데이터 부족"
+        }
+
+    news_text = ""
+    for i, a in enumerate(sorted_news, 1):
+        source = a.get("source", "Unknown")
+        title = a.get("title", "")
+        link = a.get("link", "")
+        # 요약본은 짧게 (토큰 절약)
+        summary = a.get("summary", "")[:150]
+        news_text += f"[{i}] 매체: {source}\nURL: {link}\n제목: {title}\n요약: {summary}\n\n"
+
+    prompt = f"""당신은 최고 수준의 데이터 저널리스트이자 AI 애널리스트입니다.
+아래 제공된 20개 매체의 최신 뉴스 데이터를 바탕으로 오늘 시장을 관통하는 단 하나의 '핵심 토픽'을 선정하고 심층 분석하세요.
+반드시 유효한 JSON만 반환하세요.
+
+## 오늘 수집된 뉴스 데이터
+{news_text}
+
+## 요청 형식 (JSON만 출력):
+{{
+  "Topic_Title": "오늘의 가장 핵심적인 시장 토픽 제목 (예: AI 반도체 규제 우려와 시장 파급)",
+  "Full_Summary": "여러 뉴스를 교차 분석한 팩트 기반 요약 (3~4문장). 특정 매체의 과장된 헤드라인을 배제하고 사실만 전달하세요.",
+  "Related_M7_Ticker": "관련된 M7 티커 (쉼표로 구분. 예: NVDA, MSFT. 관련 없으면 N/A)",
+  "Verified_Sources": ["분석에 활용된 구체적인 뉴스 원문 URL 1", "뉴스 원문 URL 2", "뉴스 원문 URL 3"],
+  "AI_Impact_Score": 7,
+  "AI_Impact_Reason": "위 점수(1~10)를 산정한 이유 1문장 (M7 기업 주가에 미칠 단기 영향력 기준. 1=매우 부정적, 10=매우 긍정적)"
+}}"""
+
+    try:
+        response = client.chat.completions.create(
+            model=gpt_model,
+            messages=[
+                {"role": "system", "content": "당신은 데이터 저널리스트입니다. JSON 형식만 정확히 반환합니다."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=800,
+            temperature=0.3,
+            response_format={"type": "json_object"},
+        )
+        raw = response.choices[0].message.content.strip()
+        result = json.loads(raw)
+        logger.info(f"  ✅ Daily Insights 분석 완료 — 토픽: {result.get('Topic_Title')}")
+        return result
+    except Exception as e:
+        logger.error(f"  ❌ Daily Insights 분석 실패: {e}")
+        return {
+            "Topic_Title": "AI 분석 실패",
+            "Full_Summary": "OpenAI API 호출에 실패했습니다.",
+            "Related_M7_Ticker": "N/A",
+            "Verified_Sources": [],
+            "AI_Impact_Score": 5,
+            "AI_Impact_Reason": "에러 발생"
+        }
 # ─────────────────────────────────────────────
 #  메인 분석 함수
 # ─────────────────────────────────────────────
@@ -322,6 +391,7 @@ def run_analysis(collected_data: dict, config: dict) -> dict:
     logger.info("\n📊 시장 전체 요약 분석 중...")
     if client and analysis_list:
         market_summary = _analyze_market_summary(client, analysis_list, fear_greed, gpt_model)
+        daily_insights = _analyze_daily_insights(client, news, gpt_model)
     else:
         market_summary = {
             "market_summary": "AI 분석 불가 — OpenAI API 키를 설정해주세요.",
@@ -330,8 +400,14 @@ def run_analysis(collected_data: dict, config: dict) -> dict:
             "market_mood": "혼조",
             "today_strategy": "수동 분석을 권장합니다.",
         }
+        daily_insights = {
+            "Topic_Title": "AI 분석 불가", "Full_Summary": "API 키 미설정",
+            "Related_M7_Ticker": "N/A", "Verified_Sources": [],
+            "AI_Impact_Score": 5, "AI_Impact_Reason": "분석 불가"
+        }
 
     analyses["market_summary"] = market_summary
+    analyses["daily_insights"] = daily_insights
     analyses["fear_greed"] = fear_greed
     analyses["analyzed_at"] = datetime.now(timezone.utc).isoformat()
 

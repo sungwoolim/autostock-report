@@ -30,6 +30,8 @@ ADMIN_EMAIL = "swoo9823@gmail.com"
 # 시트 구조 정의
 MARKET_SUMMARY_HEADERS = ["날짜", "Fear&Greed", "Market Mood", "주목 종목", "시장 요약", "오늘의 전략"]
 DEEP_ANALYSIS_HEADERS = ["날짜", "Ticker", "현재가", "등락률", "시총", "PER", "목표가", "Sentiment 점수", "추천", "Fact Check", "Key Insight", "리스크", "상승촉매"]
+DAILY_INSIGHTS_HEADERS = ["날짜", "Topic_Title", "Full_Summary", "Related_M7_Ticker", "Verified_Sources", "AI_Impact_Score", "AI_Impact_Reason"]
+TRANSPARENCY_LOG_HEADERS = ["날짜", "수집 시간", "매체명", "기사 제목", "원문 링크"]
 
 def authenticate_gsheet():
     """구글 시트 API 인증"""
@@ -201,9 +203,10 @@ def sync_data(ws, data_list, unique_keys):
         key = tuple(str(row.get(k, "")) for k in unique_keys)
         record_map[key] = idx + 2 # Header가 1행이므로 실제 데이터는 2행부터 시작
 
+    ws_headers = ws.row_values(1)
     for item in data_list:
         key = tuple(str(item.get(k, "")) for k in unique_keys)
-        row_data = [item.get(col, "") for col in ws.row_values(1)]
+        row_data = [item.get(col, "") for col in ws_headers]
         
         if key in record_map:
             # 업데이트
@@ -342,7 +345,44 @@ def main():
         apply_conditional_formatting(ws_deep)
         sync_data(ws_deep, real_deep_analysis_data, ["날짜", "Ticker"])
 
-        # 3. 이메일 뉴스레터용 HTML 생성 및 로그로 출력
+        # 3. Daily_Insights 시트 설정 및 데이터 동기화
+        daily_insights = analyses.get("daily_insights", {})
+        if daily_insights:
+            real_daily_insights_data = [{
+                "날짜": today,
+                "Topic_Title": daily_insights.get("Topic_Title", ""),
+                "Full_Summary": daily_insights.get("Full_Summary", ""),
+                "Related_M7_Ticker": daily_insights.get("Related_M7_Ticker", ""),
+                "Verified_Sources": "\n".join(daily_insights.get("Verified_Sources", [])),
+                "AI_Impact_Score": daily_insights.get("AI_Impact_Score", ""),
+                "AI_Impact_Reason": daily_insights.get("AI_Impact_Reason", "")
+            }]
+            ws_insights = setup_worksheet(sheet, "Daily_Insights", DAILY_INSIGHTS_HEADERS)
+            apply_base_formatting(sheet, ws_insights, DAILY_INSIGHTS_HEADERS)
+            sync_data(ws_insights, real_daily_insights_data, ["날짜"])
+
+        # 4. Transparency_Log 시트 설정 및 데이터 동기화
+        news_data = data.get("collected", {}).get("news", [])
+        if news_data:
+            real_transparency_data = []
+            for n in news_data:
+                title = n.get("title", "").strip()
+                link = n.get("link", "").strip()
+                if not title or not link:
+                    continue
+                real_transparency_data.append({
+                    "날짜": today,
+                    "수집 시간": n.get("published", today),
+                    "매체명": n.get("source", "Unknown"),
+                    "기사 제목": title,
+                    "원문 링크": link
+                })
+            ws_transparency = setup_worksheet(sheet, "Transparency_Log", TRANSPARENCY_LOG_HEADERS)
+            apply_base_formatting(sheet, ws_transparency, TRANSPARENCY_LOG_HEADERS)
+            # 투명성 로그는 매번 링크가 추가될 수 있으므로 날짜와 링크를 고유키로 사용하여 중복 방지
+            sync_data(ws_transparency, real_transparency_data, ["날짜", "원문 링크"])
+
+        # 5. 이메일 뉴스레터용 HTML 생성 및 로그로 출력
         html_table = generate_email_html(real_deep_analysis_data)
         logging.info("\n========== [뉴스레터용 HTML 테이블 본문 코드] ==========\n\n" + html_table + "\n\n=========================================================")
 
