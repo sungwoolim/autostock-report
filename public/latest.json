@@ -1,6 +1,6 @@
 {
   "collected": {
-    "collected_at": "2026-08-29T03:30:03.932455+00:00",
+    "collected_at": "2026-08-29T23:53:09.906634+00:00",
     "stock_data": {
       "AAPL": {
         "ticker": "AAPL",
@@ -9,17 +9,17 @@
         "change_pct": 1.63,
         "market_cap_raw": 4665759498240.0,
         "market_cap": "$4.67T",
-        "pe_ratio": 36.704937,
+        "pe_ratio": 36.083523,
         "forward_pe": 33.516766,
         "revenue": 466822987776.0,
-        "eps": 8.71,
+        "eps": 8.86,
         "week_52_high": 344.57,
         "week_52_low": 225.95,
         "analyst_target": 324.45282,
         "recommendation": "buy",
         "sector": "Technology",
         "company_name": "Apple Inc.",
-        "collected_at": "2026-08-29T03:29:38.516830+00:00"
+        "collected_at": "2026-08-29T23:52:46.093170+00:00"
       },
       "MSFT": {
         "ticker": "MSFT",
@@ -28,17 +28,17 @@
         "change_pct": 1.68,
         "market_cap_raw": 3813240733696.0,
         "market_cap": "$3.81T",
-        "pe_ratio": 28.640827,
+        "pe_ratio": 28.169502,
         "forward_pe": 21.78441,
         "revenue": 331839012864.0,
-        "eps": 17.93,
+        "eps": 18.23,
         "week_52_high": 553.72,
         "week_52_low": 349.2,
         "analyst_target": 569.4537,
         "recommendation": "strong_buy",
         "sector": "Technology",
         "company_name": "Microsoft Corporation",
-        "collected_at": "2026-08-29T03:29:38.970758+00:00"
+        "collected_at": "2026-08-29T23:52:46.580597+00:00"
       },
       "GOOGL": {
         "ticker": "GOOGL",
@@ -47,17 +47,17 @@
         "change_pct": 1.74,
         "market_cap_raw": 4238773059584.0,
         "market_cap": "$4.24T",
-        "pe_ratio": 17.390366,
+        "pe_ratio": 17.090237,
         "forward_pe": 23.374542,
         "revenue": 445865984000.0,
-        "eps": 19.93,
+        "eps": 20.28,
         "week_52_high": 408.61,
         "week_52_low": 206.2,
         "analyst_target": 428.06668,
         "recommendation": "strong_buy",
         "sector": "Communication Services",
         "company_name": "Alphabet Inc.",
-        "collected_at": "2026-08-29T03:29:39.417426+00:00"
+        "collected_at": "2026-08-29T23:52:47.043582+00:00"
       },
       "AMZN": {
         "ticker": "AMZN",
@@ -66,17 +66,17 @@
         "change_pct": 3.97,
         "market_cap_raw": 2873797378048.0,
         "market_cap": "$2.87T",
-        "pe_ratio": 21.434431,
+        "pe_ratio": 20.621517,
         "forward_pe": 25.641668,
         "revenue": 775680032768.0,
-        "eps": 12.43,
+        "eps": 12.92,
         "week_52_high": 287.2,
         "week_52_low": 196.0,
         "analyst_target": 327.004,
         "recommendation": "strong_buy",
         "sector": "Consumer Cyclical",
         "company_name": "Amazon.com, Inc.",
-        "collected_at": "2026-08-29T03:29:39.872627+00:00"
+        "collected_at": "2026-08-29T23:52:47.513041+00:00"
       },
       "NVDA": {
         "ticker": "NVDA",
@@ -85,17 +85,17 @@
         "change_pct": -4.57,
         "market_cap_raw": 5253179637760.0,
         "market_cap": "$5.25T",
-        "pe_ratio": 27.503162,
-        "forward_pe": 14.34279,
+        "pe_ratio": 28.81457,
+        "forward_pe": 14.213399,
         "revenue": 302970011648.0,
-        "eps": 7.91,
+        "eps": 7.55,
         "week_52_high": 236.54,
         "week_52_low": 164.07,
-        "analyst_target": 305.7931,
+        "analyst_target": 323.41898,
         "recommendation": "strong_buy",
         "sector": "Technology",
         "company_name": "NVIDIA Corporation",
-        "collected_at": "2026-08-29T03:29:40.317346+00:00"
+        "collected_at": "2026-08-29T23:52:48.003440+00:00"
       },
       "META": {
         "ticker": "META",
@@ -104,17 +104,17 @@
         "change_pct": 1.21,
         "market_cap_raw": 1472509509632.0,
         "market_cap": "$1.47T",
-        "pe_ratio": 21.762802,
+        "pe_ratio": 21.503721,
         "forward_pe": 16.533915,
         "revenue": 228246994944.0,
-        "eps": 26.56,
+        "eps": 26.88,
         "week_52_high": 790.8,
         "week_52_low": 520.26,
         "analyst_target": 754.7214,
         "recommendation": "strong_buy",
         "sector": "Communication Services",
         "company_name": "Meta Platforms, Inc.",
-        "collected_at": "2026-08-29T03:29:40.764239+00:00"
+        "collected_at": "2026-08-29T23:52:48.467219+00:00"
       },
       "TSLA": {
         "ticker": "TSLA",
@@ -123,17 +123,17 @@
         "change_pct": -1.71,
         "market_cap_raw": 1377404715008.0,
         "market_cap": "$1.38T",
-        "pe_ratio": 329.00946,
+        "pe_ratio": 332.14288,
         "forward_pe": 161.56454,
         "revenue": 103619002368.0,
-        "eps": 1.06,
+        "eps": 1.05,
         "week_52_high": 498.83,
         "week_52_low": 297.38,
         "analyst_target": 390.09283,
         "recommendation": "buy",
         "sector": "Consumer Cyclical",
         "company_name": "Tesla, Inc.",
-        "collected_at": "2026-08-29T03:29:41.217712+00:00"
+        "collected_at": "2026-08-29T23:52:48.941259+00:00"
       }
     },
     "news": [
@@ -455,74 +455,74 @@
       {
         "source": "CNBC Technology",
         "category": "breaking",
-        "title": "Apple hikes subscription prices for Apple TV and Apple One in the U.S.",
-        "summary": "Apple raised prices for Apple Music by $1 per month in July, citing licensing costs.",
-        "link": "https://www.cnbc.com/2026/08/28/apple-tv-one-price-hike-us.html",
-        "published": "2026-08-28T19:09:34+00:00"
+        "title": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
+        "summary": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
+        "link": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
+        "published": "2026-08-29T19:06:22+00:00"
       },
       {
         "source": "CNBC Technology",
         "category": "breaking",
-        "title": "Big Tech's massive AI spending is putting one of its longtime strengths to the test",
-        "summary": "There's new risk emerging from Big Tech's massive artificial intelligence buildout.",
-        "link": "https://www.cnbc.com/2026/08/28/big-techs-ai-spending-is-putting-a-longtime-strengths-to-the-test.html",
-        "published": "2026-08-28T15:50:58+00:00"
+        "title": "The big lesson from this week's earnings: The AI buildout is not a zero-sum game",
+        "summary": "Salesforce, CrowdStrike, and Nvidia all faced major tests with investors and crushed expectations.",
+        "link": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+        "published": "2026-08-29T13:25:55+00:00"
       },
       {
         "source": "CNBC Technology",
         "category": "breaking",
-        "title": "CEO of buy now, pay later giant Affirm says high gas prices are hitting U.S. shoppers",
-        "summary": "The national average price for gas is at $4.09 per gallon and was last below $3 on March 2.",
-        "link": "https://www.cnbc.com/2026/08/28/affirm-stock-earnings-levchin-gas-prices.html",
-        "published": "2026-08-28T20:09:13+00:00"
+        "title": "Op-ed: Salesforce just revealed the next battleground in AI — and it's not the models",
+        "summary": "For the past year, markets have vaporized roughly $2 trillion in software value by asking the wrong question about AI.",
+        "link": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html",
+        "published": "2026-08-29T13:00:01+00:00"
       },
       {
         "source": "CNBC Technology",
         "category": "breaking",
-        "title": "'Grand Theft Auto 6' preview signals blockbuster demand, analysts say",
-        "summary": "Take-Two shares moved higher in premarket Friday, as analysts said they were bullish on the GTA maker's parent company following a successful trailer launch.",
-        "link": "https://www.cnbc.com/2026/08/28/gta-6-preview-netflix.html",
-        "published": "2026-08-28T15:32:21+00:00"
+        "title": "Tech backlash reaches fever pitch as AI angst collides with social media fears",
+        "summary": "With data center concerns becoming a major election issue and Meta reaching a landmark settlement in a social media case, the tech backlash is gaining steam.",
+        "link": "https://www.cnbc.com/2026/08/29/tech-backlash-ai-data-centers-elections.html",
+        "published": "2026-08-29T19:55:30+00:00"
       },
       {
         "source": "CNBC Technology",
         "category": "breaking",
-        "title": "Warsh speaks from Wyoming, Old Navy's new CEO, how Taylor Farms became so massive and more in Morning Squawk",
-        "summary": "Here are five key things investors need to know to start the trading day.",
-        "link": "https://www.cnbc.com/2026/08/28/5-things-to-know-before-the-stock-market-opens.html",
-        "published": "2026-08-28T12:29:14+00:00"
+        "title": "Meta’s $18 billion settlement puts TikTok and YouTube on notice. Who's next on the firing line?",
+        "summary": "\"Meta is seeking to ensure its competitors will face the same rules,\" one business professor told CNBC after Meta called on rivals to protect children online.",
+        "link": "https://www.cnbc.com/2026/08/29/meta-settlement-tiktok-youtube-snap-teen-safety.html",
+        "published": "2026-08-29T05:00:01+00:00"
       },
       {
-        "source": "CNBC Technology",
+        "source": "Bloomberg Technology",
         "category": "breaking",
-        "title": "BlackBerry lost the phone war. Now it's betting on cars and robots",
-        "summary": "BlackBerry CEO John Giamatteo joins CNBC's Arjun Kharpal on The Tech Download podcast.",
-        "link": "https://www.cnbc.com/2026/08/28/blackberry-cars-robots-tech-download.html",
-        "published": "2026-08-28T14:40:22+00:00"
+        "title": "Bloomberg This Weekend 8/29/2026",
+        "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Schwab Head of Macro Research and Strategy Kevin Gordon, Allspring Global Investments Head of Equity Investments Ann Miletti, Child Online Safety Activist Beeban Kidron and Content Creator Macy Gilli...",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/bloomberg-this-weekend-8-29-2026-video",
+        "published": "2026-08-29T16:30:30+00:00"
       },
       {
-        "source": "CNBC Technology",
+        "source": "Bloomberg Technology",
         "category": "breaking",
-        "title": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
-        "summary": "Salesforce's stock had its second-best day on record following earnings, as Wall Street shows renewed confidence in CEO Marc Benioff's AI story.",
-        "link": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
-        "published": "2026-08-28T13:44:25+00:00"
+        "title": "Meta Child Safety Deal Puts Rivals on Notice",
+        "summary": "Meta’s child safety settlement includes new protections for young users and is increasing pressure on other social media platforms to adopt similar safeguards. UK House of Lords National Security Strategy Committee member and Online Safety Activist Baroness Beeban Kidron is on Bloomberg This Weekend and says the bigger impact may come from forcing technology companies to take greater responsibilit...",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/meta-child-safety-deal-puts-rivals-on-notice-video",
+        "published": "2026-08-29T13:52:30+00:00"
       },
       {
-        "source": "CNBC Technology",
+        "source": "Bloomberg Technology",
         "category": "breaking",
-        "title": "Marvell shares tumble 6% as outlook underwhelms despite 37% revenue growth",
-        "summary": "Marvell Technology shares fell Friday despite a second-quarter revenue beat, as its fiscal 2028 outlook failed to meet investors' expectations.",
-        "link": "https://www.cnbc.com/2026/08/28/marvell-mrvl-q2-earnings-outlook.html",
-        "published": "2026-08-28T13:42:43+00:00"
+        "title": "Inside the Dangote Family Vision and the Next Era of African Industry",
+        "summary": "What does the future hold for one of Africa's most powerful industrial empires? In this exclusive conversation on Bloomberg Next Africa, Halima, Mariya, and Fatima Dangote sit down to discuss the next generation of leadership at the Dangote Group — from expanding cement production and investing in refining, fertilizer and power to building a family office focused on preserving the family’s legacy ...",
+        "link": "https://www.bloomberg.com/news/videos/2026-08-29/dangote-s-daughters-shape-the-future-of-an-empire-video",
+        "published": "2026-08-29T09:52:26+00:00"
       },
       {
-        "source": "CNBC Technology",
+        "source": "Bloomberg Technology",
         "category": "breaking",
-        "title": "OpenAI rolls out ads on select ChatGPT plans in India to boost monetization, support wider access",
-        "summary": "Ads have been rolled out for free users and those on the 399 rupee ($4) per month 'Go' plan.",
-        "link": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html",
-        "published": "2026-08-28T03:29:45+00:00"
+        "title": "Chinese Chipmaker CXMT Sues Pentagon to Get Off US Blacklist",
+        "summary": "CXMT Corp. filed a lawsuit against the US Department of Defense, seeking removal from a blacklist that identified the Chinese chipmaker as a supporter of the Communist country’s military.",
+        "link": "https://www.bloomberg.com/news/articles/2026-08-29/chinese-chipmaker-cxmt-sues-pentagon-to-get-off-us-blacklist",
+        "published": "2026-08-29T03:39:52+00:00"
       },
       {
         "source": "Bloomberg Technology",
@@ -533,644 +533,724 @@
         "published": "2026-08-29T02:16:53+00:00"
       },
       {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Affirm CEO: American Consumers Are Healthy",
-        "summary": "Affirm CEO Max Levchin joins Bloomberg Businessweek Daily to discuss the company's recent earnings report, including an upbeat revenue outlook as the short-term loan company sees its most profitable quarter on record. Levchin also discusses recent partnerships, e-commerce growth, and the state of the consumer, saying Affirm customers are \"healthy, paying us back on time, and shopping.\" He speaks w...",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/affirm-ceo-american-consumers-are-healthy-video",
-        "published": "2026-08-28T23:40:48+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "SentinelOne CEO on Earnings, AI's Cybersecurity Impact",
-        "summary": "SentinelOne co-founder, chairman and CEO Tomer Weingarten discusses earnings and AI Cybersecurity in an interview with Romaine Bostick and Emily Graffeo on \"The Close.\" (Source: Bloomberg)",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/sentinelone-ceo-on-earnings-ai-s-cybersecurity-impact-video",
-        "published": "2026-08-28T23:06:53+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Warsh Says Inflation Isn't Slowing | The Close 8/28/2026",
-        "summary": "Bloomberg Television brings you the latest news and analysis leading up to the final minutes and seconds before and after the closing bell on Wall Street. Today's guests are BMO US President Aron Levine, Morgan Stanley Investment Management Senior Portfolio Manager Andrew Slimmon, Cisco President & Chief Product Officer Jeetu Patel, SentinelOne Co-Founder Tomer Weingarten, Oliver Wyman CEO Ted Moy...",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/the-close-8-28-2026-video",
-        "published": "2026-08-28T22:15:35+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "BMO US President: See growth beyond AI plane",
-        "summary": "BMO US President Aron Levine says they are seeing their clients work through many different scenarios when it comes to the integration of AI, but that there are signs of growth across many different sectors. He also gives his reaction to Fed Chair Kevin Warsh's speech at the Jackson Hole Symposium. He speaks to Romaine Bostick and Emily Graffeo on Bloomberg's 'The Close.' (Source: Bloomberg)",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/bmo-us-president-see-growth-beyond-ai-plane-video",
-        "published": "2026-08-28T21:34:56+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Cisco President Patel Makes the Case for AI in the Classroom",
-        "summary": "Cisco President and Chief Product Officer Jeetu Patel explains how artificial intelligence will benefit the education system on \"Bloomberg The Close.\" (Source: Bloomberg)",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/cisco-s-patel-makes-the-case-for-ai-in-the-classroom-video",
-        "published": "2026-08-28T21:05:29+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Quantum Firm Pasqal Shares Jump 95% in Debut Via SPAC Merger",
-        "summary": "Pasqal Holding SA soared in its first day of trading after the quantum computing company went public in New York via a merger with a blank-check firm, outperforming other quantum companies that have recently debuted.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/quantum-computing-firm-pasqal-jumps-52-in-debut-via-spac-merger",
-        "published": "2026-08-28T16:32:18+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "S&P 500 Falls on Tech Selloff as Warsh Vows to Fight Inflation",
-        "summary": "Stocks ended the day lower Friday after a hawkish Federal Reserve Chairman Kevin Warsh speech, which led traders and strategists to increase bets on interest-rate hikes this year.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/equity-futures-drift-before-warsh-speech-amid-tech-profit-taking",
-        "published": "2026-08-28T12:50:50+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Andreessen Horowitz Raises $1.1 Billion for AI Infrastructure Fund",
-        "summary": "Prominent venture capital firm Andreessen Horowitz says it has raised $1.1 billion for its newest artificial intelligence infrastructure fund.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/andreessen-horowitz-raises-1-1-billion-for-ai-infrastructure-fund",
-        "published": "2026-08-28T15:21:16+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "California Sues Over Trump Deal to Cancel Wind Project Lease",
-        "summary": "California sued the Trump administration and Golden State Wind over the federal government’s deal with the company to cancel an offshore wind project lease, alleging the transaction violated multiple federal laws.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/california-sues-over-trump-deal-to-cancel-wind-project-lease",
-        "published": "2026-08-28T18:38:56+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Jackson Hole, Anthropic’s Court Win and PayPal Deal Collapse | Bloomberg Tech 8/28/2026",
-        "summary": "Bloomberg’s Tim Stenovec zeroes in on Jackson Hole after Federal Reserve Chairman Kevin Warsh delivered his first address at the Symposium. Plus, a US judge rules that the Trump administration must lift its ban on Anthropic's AI tech for federal agencies. And, a consortium of Advent and Stripe decided to abandon its pursuit of PayPal, a deal that would have ranked as one of the biggest-ever levera...",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/bloomberg-tech-8-28-2026-video",
-        "published": "2026-08-28T17:52:43+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Rogoff Says Economic Shock Needed to Force US Deficit Reform",
-        "summary": "Kenneth Rogoff, professor of economics at Harvard University and former chief economist at the IMF, discusses the US deficit problem and why he thinks it is unlikely to be addressed until a major crisis forces voters to act. He speaks with Bloomberg's Tom Keene at the Federal Reserve’s annual conference in Jackson Hole, Wyoming. (Source: Bloomberg)",
-        "link": "https://www.bloomberg.com/news/videos/2026-08-28/rogoff-says-shock-needed-to-force-us-deficit-reform-video",
-        "published": "2026-08-28T17:10:12+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Cyber Command to Brief Congress Military Committee on Suicides",
-        "summary": "US military officials are set to brief a House oversight committee next week as part of lawmakers’ examination of an unusually high number of deaths by suicide among personnel of the country’s cyberwarfare unit, according to a committee spokesperson.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/cyber-command-to-brief-congress-military-committee-on-suicides",
-        "published": "2026-08-28T16:50:29+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Nvidia-Backed Lambda Inks $1 Billion Private Debt for Chip Deal",
-        "summary": "Lambda Inc., an AI cloud-computing provider backed by Nvidia Corp., has raised about $1 billion of private short-dated debt for computing chips tied to its collaboration with Microsoft Corp.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/nvidia-backed-lambda-inks-1-billion-private-debt-for-chip-deal",
-        "published": "2026-08-28T16:37:00+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Meta’s Newspaper Ad Blitz Ups Pressure on Social Media Rivals",
-        "summary": "Meta Platforms Inc. is intensifying its public pressure campaign on TikTok and YouTube, running full-page advertisements in top newspapers across the US demanding its rivals make comparable efforts to strengthen social media protections for teens.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/meta-s-newspaper-ad-blitz-ups-pressure-on-social-media-rivals",
-        "published": "2026-08-28T16:20:17+00:00"
-      },
-      {
-        "source": "Bloomberg Technology",
-        "category": "breaking",
-        "title": "Microsoft Seeks to Reassure Employees About Data Centers Impact",
-        "summary": "Microsoft Corp. is trying to reassure its own workers that its data centers are having a positive impact on society.",
-        "link": "https://www.bloomberg.com/news/articles/2026-08-28/microsoft-seeks-to-reassure-employees-about-data-centers-impact",
-        "published": "2026-08-28T15:49:37+00:00"
+        "source": "TechCrunch",
+        "category": "industry",
+        "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+        "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+        "link": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+        "published": "2026-08-29T18:41:59+00:00"
       },
       {
         "source": "TechCrunch",
         "category": "industry",
-        "title": "Chinese automakers are following Tesla’s bet that robots are the next big profit machine",
-        "summary": "Technical progress has encouraged a new batch of companies to jump in on the promise of profits from humanoid robots. And they're all Chinese automakers.",
-        "link": "https://techcrunch.com/2026/08/28/chinese-automakers-are-following-teslas-bet-that-robots-are-the-next-big-profit-machine/",
-        "published": "2026-08-28T23:24:27+00:00"
+        "title": "At TechBBQ, Europe’s AI conversations kept coming back to: Who’s actually in control?",
+        "summary": "Investors, founders, and operators from across Europe arrived for the annual Nordic TechBBQ conference to talk about how humans can have agency over AI.",
+        "link": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/",
+        "published": "2026-08-29T17:51:10+00:00"
       },
       {
         "source": "TechCrunch",
         "category": "industry",
-        "title": "Is the best way to watch a movie on a pair of sunglasses?",
-        "summary": "Are XREAL's smart glasses the way of the future for home entertainment?",
-        "link": "https://techcrunch.com/2026/08/28/is-the-best-way-to-watch-a-movie-on-a-pair-of-sunglasses/",
-        "published": "2026-08-28T22:42:48+00:00"
+        "title": "“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z",
+        "summary": "Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — talks about why biology is finally shifting from a \"discovery\" science to an \"engineering\" one, why clinical trials are still brutally expensive, and why he thinks open, shared datasets (not walled-off ones) are what will actually let AI transform medicine.",
+        "link": "https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/",
+        "published": "2026-08-29T17:36:47+00:00"
       },
       {
         "source": "TechCrunch",
         "category": "industry",
-        "title": "Neocloud Lambda secures $1B in debt to buy more chips",
-        "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
-        "link": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-        "published": "2026-08-28T20:24:11+00:00"
+        "title": "Hollywood celebs are getting into microdrama apps",
+        "summary": "Several Hollywood celebs are ditching the massive eight-figure checks and exotic movie sets for a rising format: microdramas.",
+        "link": "https://techcrunch.com/2026/08/29/hollywood-celebs-are-getting-into-microdrama-apps/",
+        "published": "2026-08-29T16:10:00+00:00"
       },
       {
         "source": "TechCrunch",
         "category": "industry",
-        "title": "An Anthropic researcher just gave us a peek at self-improving AI",
-        "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
-        "link": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
-        "published": "2026-08-28T19:30:38+00:00"
+        "title": "The Theragun Sense makes everyday recovery surprisingly easy",
+        "summary": "As my 20s are set to come to an end later this year, I’ve officially reached the age where sleeping in the wrong position or stretching just a little too far can cause aches and pains. I’ve always been somewhat skeptical of massage guns, mostly because I’ve tried a few off-brand ones and just assumed [&#8230;]",
+        "link": "https://techcrunch.com/2026/08/29/the-theragun-sense-makes-everyday-recovery-surprisingly-easy/",
+        "published": "2026-08-29T14:00:00+00:00"
       },
       {
         "source": "TechCrunch",
         "category": "industry",
-        "title": "Brave’s browser one-ups Chrome with its new support for email aliases",
-        "summary": "The feature, announced this week, allows Brave's users to sign up for websites and other online services without having to share their personal email addresses.",
-        "link": "https://techcrunch.com/2026/08/28/braves-browser-one-ups-chrome-with-its-new-support-for-email-aliases/",
-        "published": "2026-08-28T18:50:00+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
-        "summary": "There's a lot of capital pouring into the business of giving models away.",
-        "link": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
-        "published": "2026-08-28T18:19:40+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "How Sweden built one of Europe’s hottest startup ecosystems",
-        "summary": "Sophia Bendz, general partner at Cherry Ventures, stopped by Equity to break down the latest in the Swedish tech ecosystem.",
-        "link": "https://techcrunch.com/2026/08/28/how-sweden-built-one-of-europes-hottest-startup-ecosystems/",
-        "published": "2026-08-28T17:09:05+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "More Americans oppose police license plate cameras than support them: survey",
-        "summary": "The backlash against license plate readers comes amid a wave of police abuses of surveillance cameras.",
-        "link": "https://techcrunch.com/2026/08/28/more-americans-oppose-police-license-plate-cameras-than-support-them-survey/",
-        "published": "2026-08-28T15:57:58+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "Friend-focused photo-sharing app Retro snags $21M",
-        "summary": "Retro, a friend-focused photo-sharing app built by former Instagram employees, has raised more than $21 million in Series A funding.",
-        "link": "https://techcrunch.com/2026/08/28/friend-focused-photo-sharing-app-retro-snags-21m/",
-        "published": "2026-08-28T15:35:03+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "Apple TV is raising its subscription prices again",
-        "summary": "Now, Apple TV subscriptions will cost $14.99 per month, up from its previous price of $12.99 per month.",
-        "link": "https://techcrunch.com/2026/08/28/apple-tv-is-raising-its-subscription-prices-again/",
-        "published": "2026-08-28T14:36:48+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "a16z creates a $1.1B ‘Machine Age’ fund to ‘accelerate the physical buildout of AI’",
-        "summary": "The firm, known for its focus on software, is going to start throwing more money at the hardware behind AI.",
-        "link": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
-        "published": "2026-08-28T13:24:43+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
-        "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
-        "link": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-        "published": "2026-08-28T12:46:12+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
-        "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
-        "link": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
-        "published": "2026-08-28T12:21:06+00:00"
-      },
-      {
-        "source": "TechCrunch",
-        "category": "industry",
-        "title": "As electric two-wheelers gain a foothold, Belgian startup Any bets on cargo space",
-        "summary": "Launched by Belgian startup Any, LUV1 is a modular electric motorcycle with 120 liters of cargo space that can be used to carry bags, work equipment, or even pets.",
-        "link": "https://techcrunch.com/2026/08/28/as-electric-two-wheelers-gain-a-foothold-belgian-startup-any-bets-on-cargo-space/",
-        "published": "2026-08-28T09:33:00+00:00"
+        "title": "Nvidia’s AI advantage is moving beyond the GPU",
+        "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+        "link": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+        "published": "2026-08-29T13:00:00+00:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "Google further buries search results under AI mode",
-        "summary": "Google is now automatically expanding its AI search summaries at the top of the results page for some searches, as reported by Search Engine Roundtable. The change, when it kicks in, pushes the typical list of links from a search much farther down Google's results page; instead of seeing part of an AI Overview with [&#8230;]",
-        "link": "https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand",
-        "published": "2026-08-28T18:48:11-04:00"
+        "title": "Vicariously hike the Appalachian in the gorgeous A Trail Tale",
+        "summary": "I used to be an avid hiker and would try to go backpacking a few times a year. I always dreamed of thru-hiking the Appalachian Trail, but life kind of got in the way. (Turns out jobs, wives, and children aren't thrilled with the idea of you disappearing for three months.) But I've been longing [&#8230;]",
+        "link": "https://www.theverge.com/entertainment/986461/hike-appalachian-trail-pixel-art-a-trail-tale",
+        "published": "2026-08-29T16:59:26-04:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "Xbox CEO calls Project Helix a ‘family of devices’",
-        "summary": "According to Xbox CEO Asha Sharma, Project Helix, which she announced in March as a codename for Microsoft's \"next generation console\" - phrasing that seemingly implied a singular device - will actually be a \"family\" of devices.\" \"We've been hard at work on a great next generation and a great family of devices for Helix, [&#8230;]",
-        "link": "https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices",
-        "published": "2026-08-28T18:03:13-04:00"
+        "title": "Alt-right troll Milo Yiannopoulos has been deported",
+        "summary": "Alt-right troll Milo Yiannopoulos was arrested by ICE on Thursday, and today the Department of Homeland Security confirmed to Reuters and the Washington Post that he had been deported to the UK. Yiannopoulos came to the US legally in 2019, but overstayed his visa. After he failed to appear in court for an immigration hearing, [&#8230;]",
+        "link": "https://www.theverge.com/policy/986456/milo-yiannopoulos-deported-ice",
+        "published": "2026-08-29T15:49:59-04:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "Save hundreds on a TCL mini-LED TV with quantum dots and high refresh rate",
-        "summary": "Amazon and Best Buy have the TCL QM7L mini-LED TV on sale for as low as $797.99 for the 55-inch model, a $200 discount from the usual price. We spotted scaling discounts on larger sizes as well, although Amazon already listed low stock on the 65-inch version. While OLED televisions are great for deep black [&#8230;]",
-        "link": "https://www.theverge.com/gadgets/985741/tcl-qm7l-belkin-thunderbolt-dock-deal-sale",
-        "published": "2026-08-28T13:03:07-04:00"
+        "title": "Sony Music and Warner Chappell are suing Anthropic",
+        "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the [&#8230;]",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+        "published": "2026-08-29T14:19:53-04:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "Trump’s EPA wants to let data centers hide their air pollution",
-        "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain industrial sites [&#8230;]",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
-        "published": "2026-08-28T12:28:40-04:00"
+        "title": "Distraction-free writing gadget BYOK is adding custom extensions",
+        "summary": "BYOK is a no-frills, single-purpose gadget that 90 percent of people will find absolutely frivolous. But for those who spend a significant chunk of their lives putting words to virtual paper, there is an obvious allure. Personally, I think it's at its best when you just stick to the bare minimum, focusing on pure text [&#8230;]",
+        "link": "https://www.theverge.com/gadgets/986427/distraction-free-writing-gadget-byok-scripts-extensions",
+        "published": "2026-08-29T12:01:13-04:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "DLSS 5 leaked and modders are putting Nvidia&#8217;s AI effects on everything",
-        "summary": "Modders are trying out an unofficial version of Nvidia's DLSS 5 on Skyrim, Cyberpunk 2077, GTA V, and a bunch of other games after code for the AI upscaling tech appeared in an early-access build of NBA 2K27. Members of the RenoDX modding channel on Discord reportedly found a way to extract the DLSS \"Neural [&#8230;]",
-        "link": "https://www.theverge.com/games/986197/nvidia-dlss-5-leak-ai",
-        "published": "2026-08-28T12:22:16-04:00"
+        "title": "Welcome to Night Vale cocreator Joseph Fink learned storytelling from Grim Fandango",
+        "summary": "Joseph Fink is the cocreator and cowriter of Welcome to Night Vale, arguably the most important fiction podcast ever. He's also the creator of the noir podcast Unlicensed and Alice Isn't Dead, which takes some of the conspiratorial cosmic horror of Night Vale and turns it into fodder for a more serious series about relationships, [&#8230;]",
+        "link": "https://www.theverge.com/entertainment/983448/welcome-to-night-vale-cocreator-joseph-fink-learned-storytelling-from-grim-fandango",
+        "published": "2026-08-29T11:00:00-04:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "The iPhone Fold could make concerts even worse",
-        "summary": "You know the person blocking your view of the concert because their phone is swaying in the air, recording the entire thing? Get ready for the unfolded version of it. This week on The Vergecast, we dive right into the big week of Apple news. First, it's the refreshed Mac Mini and Mac Studio, as [&#8230;]",
-        "link": "https://www.theverge.com/podcast/986145/m6-mac-mini-meta-settlement-gta-6-vergecast",
-        "published": "2026-08-28T11:26:19-04:00"
+        "title": "The Galaxy Z Flip 8 is at its best when there’s friction",
+        "summary": "What do you want from a flip phone when it's closed? A simple interface, perhaps notifications and a widget or two, for handling the basics? Or a fully fledged Android experience shrunk down for the Flip form factor? For years, Samsung has insisted on the former, even as some fans - and Razr rival Motorola [&#8230;]",
+        "link": "https://www.theverge.com/tech/986033/samsung-galaxy-z-flip-8-review",
+        "published": "2026-08-29T09:00:00-04:00"
       },
       {
         "source": "The Verge",
         "category": "industry",
-        "title": "Apple TV now costs $14.99 a month after its fourth price hike in four years",
-        "summary": "Apple raised the price of its streaming service for new and current subscribers on Friday, bumping it up from $12.99 per month to $14.99, Deadline and Variety are reporting. An annual subscription now costs $119, up from $99. Apple also increased the cost of its individual Apple One subscription, which includes Apple TV and Apple's [&#8230;]",
-        "link": "https://www.theverge.com/tech/986130/apple-tv-plus-price-hike",
-        "published": "2026-08-28T09:47:36-04:00"
-      },
-      {
-        "source": "The Verge",
-        "category": "industry",
-        "title": "Apple TV’s sci-fi thriller Dark Matter gets even trippier in season 2",
-        "summary": "Confusion is a generally accepted side effect of mystery box shows. They slather on secrets with the promise of a satisfying payoff in the end, and sometimes the cast and crew even have a hard time following what's going on. But even by the standards of the genre, Dark Matter is extreme. Its multiversal premise, [&#8230;]",
-        "link": "https://www.theverge.com/entertainment/983263/dark-matter-season-2-review-apple-tv",
-        "published": "2026-08-28T08:00:00-04:00"
+        "title": "Musicians-turned-detectives are hunting for AI grifters",
+        "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology [&#8230;]",
+        "link": "https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+        "published": "2026-08-29T08:00:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "BOC Hong Kong (Holdings) Limited 2026 Q2 - Results - Earnings Call Presentation",
+        "title": "Integrated Research Limited 2026 Q4 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941415-boc-hong-kong-holdings-limited-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-        "published": "2026-08-28T23:01:23-04:00"
+        "link": "https://seekingalpha.com/article/4941520-integrated-research-limited-2026-q4-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:10:19-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "First Carolina Financial Services Needs Time To Catch Up To Its Valuation",
+        "title": "Bajaj Mobility AG 2026 Q2 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941413-first-carolina-financial-services-needs-time-to-catch-up-to-its-valuation?source=feed_all_articles",
-        "published": "2026-08-28T22:40:23-04:00"
+        "link": "https://seekingalpha.com/article/4941519-bajaj-mobility-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:09:49-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "HighPeak Energy: Frontloaded CapEx Should Translate Into H2 2026 FCF Generation (Downgrade)",
+        "title": "Security Bank Corporation (SYBJF) Analyst/Investor Day - Slideshow",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941411-highpeak-energy-frontloaded-capex-translate-h2-2026-fcf-generation?source=feed_all_articles",
-        "published": "2026-08-28T22:23:00-04:00"
+        "link": "https://seekingalpha.com/article/4941518-security-bank-corporation-sybjf-analyst-investor-day-slideshow?source=feed_all_articles",
+        "published": "2026-08-29T19:09:16-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Onto Innovation: AI's Next Bottleneck Is Yield",
+        "title": "L.B. Foster Company (FSTR) Presents at 17th Annual Midwest IDEAS Conference - Slideshow",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941410-onto-innovation-ais-next-bottleneck-is-yield?source=feed_all_articles",
-        "published": "2026-08-28T22:13:16-04:00"
+        "link": "https://seekingalpha.com/article/4941517-l-b-foster-company-fstr-presents-at-17th-annual-midwest-ideas-conference-slideshow?source=feed_all_articles",
+        "published": "2026-08-29T19:08:23-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Dividend Champion, Contender, And Challenger Highlights: Week August 30",
+        "title": "PagerDuty, Inc. 2027 Q2 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941409-dividend-champion-contender-and-challenger-highlights-week-august-30?source=feed_all_articles",
-        "published": "2026-08-28T22:04:18-04:00"
+        "link": "https://seekingalpha.com/article/4941516-pagerduty-inc-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:06:27-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Eurocommercial Properties N.V. (ECMPF) Q2 2026 Earnings Call Transcript",
+        "title": "Lotus Technology Inc. 2026 Q2 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941333-eurocommercial-properties-n-v-ecmpf-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T21:29:17-04:00"
+        "link": "https://seekingalpha.com/article/4941515-lotus-technology-inc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:06:03-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Central Asia Metals plc (CAMLF) Q2 2026 Earnings Call Transcript",
+        "title": "Affirm Holdings, Inc. 2026 Q4 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941408-central-asia-metals-plc-camlf-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T21:09:14-04:00"
+        "link": "https://seekingalpha.com/article/4941514-affirm-holdings-inc-2026-q4-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:05:16-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Treasury Yields Snapshot: August 28, 2026",
+        "title": "Workday, Inc. 2027 Q2 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941406-treasury-yields-snapshot-august-28-2026?source=feed_all_articles",
-        "published": "2026-08-28T20:45:00-04:00"
+        "link": "https://seekingalpha.com/article/4941513-workday-inc-2027-q2-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:04:41-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Consumer Sentiment Falls In August",
+        "title": "Ion Beam Applications SA 2026 Q2 - Results - Earnings Call Presentation",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941405-consumer-sentiment-falls-in-august?source=feed_all_articles",
-        "published": "2026-08-28T20:25:00-04:00"
+        "link": "https://seekingalpha.com/article/4941512-ion-beam-applications-sa-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+        "published": "2026-08-29T19:04:21-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Zomedica Corp. (ZOMDF) Q2 2026 Earnings Call Transcript",
+        "title": "PWV: Value Begins To Struggle, Momentum Is Shifting Towards Growth",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941387-zomedica-corp-zomdf-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T19:59:19-04:00"
+        "link": "https://seekingalpha.com/article/4941511-pwv-value-begins-to-struggle-momentum-is-shifting-towards-growth?source=feed_all_articles",
+        "published": "2026-08-29T12:44:53-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Agricultural Bank of China Limited (ACGBY) Q2 2026 Earnings Call Transcript",
+        "title": "Narrow Credit Spreads Make USHY A Hold (Rating Downgrade)",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941337-agricultural-bank-of-china-limited-acgby-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T19:59:17-04:00"
+        "link": "https://seekingalpha.com/article/4941510-narrow-credit-spreads-make-ushy-a-hold?source=feed_all_articles",
+        "published": "2026-08-29T12:33:03-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "JS Global Lifestyle Company Limited (JGLCF) Q4 2025 Earnings Call Transcript",
+        "title": "GDX: Gold Stung By A Hawkish Warsh, But Gold Miners Remain A Compelling Buy",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941402-js-global-lifestyle-company-limited-jglcf-q4-2025-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T19:59:15-04:00"
+        "link": "https://seekingalpha.com/article/4941491-gdx-gold-stung-by-a-hawkish-warsh-but-gold-miners-remain-a-compelling-buy?source=feed_all_articles",
+        "published": "2026-08-29T12:17:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Central Asia Metals plc (CAMLF) Cygnus Metals Limited - M&A Call - Slideshow",
+        "title": "Clarus Corporation's Turnaround Is In Progress (Upgrade)",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941400-central-asia-metals-plc-camlf-cygnus-metals-limited-m-and-a-call-slideshow?source=feed_all_articles",
-        "published": "2026-08-28T19:29:39-04:00"
+        "link": "https://seekingalpha.com/article/4941391-clarus-corporation-turnaround-is-in-progress-upgrade?source=feed_all_articles",
+        "published": "2026-08-29T12:00:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Union Pacific: M&A Optionality Isn't Enough To Justify Buying At Fair Value",
+        "title": "Standard Nuclear: The Business Is Working, The Stock Is Too Expensive",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941389-union-pacific-m-and-a-optionality-isnt-enough-to-justify-buying-at-fair-value?source=feed_all_articles",
-        "published": "2026-08-28T19:17:33-04:00"
+        "link": "https://seekingalpha.com/article/4941508-standard-nuclear-the-business-is-working-the-stock-is-too-expensive?source=feed_all_articles",
+        "published": "2026-08-29T11:54:41-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Amaero Inc. (AMRO) Shareholder/Analyst Call Prepared Remarks Transcript",
+        "title": "The August Labor Market Report To Cement The September Fed Hike",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941397-amaero-inc-amro-shareholder-analyst-call-prepared-remarks-transcript?source=feed_all_articles",
-        "published": "2026-08-28T19:09:15-04:00"
+        "link": "https://seekingalpha.com/article/4941507-the-august-labor-market-report-to-cement-the-september-fed-hike?source=feed_all_articles",
+        "published": "2026-08-29T11:51:53-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Central Asia Metals plc 2026 Q2 - Results - Earnings Call Presentation",
+        "title": "Kevin Warsh: Almost Like Powell From 2022",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941396-central-asia-metals-plc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-        "published": "2026-08-28T19:05:08-04:00"
+        "link": "https://seekingalpha.com/article/4941506-kevin-warsh-almost-like-powell-from-2022?source=feed_all_articles",
+        "published": "2026-08-29T11:43:52-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Ithaca Energy plc 2026 Q2 - Results - Earnings Call Presentation",
+        "title": "Why The Fed Might Raise Rates Despite August Job Declines",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941394-ithaca-energy-plc-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-        "published": "2026-08-28T19:02:18-04:00"
+        "link": "https://seekingalpha.com/article/4941505-why-fed-might-raise-rates-despite-august-job-declines?source=feed_all_articles",
+        "published": "2026-08-29T11:42:30-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Implenia AG 2026 Q2 - Results - Earnings Call Presentation",
+        "title": "Duke Energy: Newly Issued Equity Units Are An Interesting Option",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941393-implenia-ag-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
-        "published": "2026-08-28T19:01:17-04:00"
+        "link": "https://seekingalpha.com/article/4940554-duke-energy-newly-issued-equity-units-are-an-interesting-option?source=feed_all_articles",
+        "published": "2026-08-29T11:40:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Eiffage SA (EFGSY) Q2 2026 Earnings Call Transcript",
+        "title": "Vår Energi: Hub Density Is Turning Production Growth Into A Durable Cash Flow Platform",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941276-eiffage-sa-efgsy-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T18:49:14-04:00"
+        "link": "https://seekingalpha.com/article/4941504-vr-energi-hub-density-is-turning-production-growth-into-a-durable-cash-flow-platform?source=feed_all_articles",
+        "published": "2026-08-29T11:30:06-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Tenaga Nasional Berhad (TNABY) Q2 2026 Earnings Call Transcript",
+        "title": "Insulet Corporation: Strong Growth Meets A New Execution Problem",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941200-tenaga-nasional-berhad-tnaby-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T18:29:14-04:00"
+        "link": "https://seekingalpha.com/article/4941475-insulet-corporation-strong-growth-meets-a-new-execution-problem?source=feed_all_articles",
+        "published": "2026-08-29T11:30:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "VCSH: High-Quality, Short-Term Bond ETF, But Trails Its Peers",
+        "title": "What Warsh Didn't Say Matters More",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941384-vcsh-high-quality-short-term-bond-etf-but-trails-its-peers?source=feed_all_articles",
-        "published": "2026-08-28T18:23:03-04:00"
+        "link": "https://seekingalpha.com/article/4941503-what-warsh-didnt-say-matters-more?source=feed_all_articles",
+        "published": "2026-08-29T11:21:24-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Allogene Therapeutics: Is The Market Looking At CAR-T Persistence The Wrong Way?",
+        "title": "MarketWise: Limited Downside With 8% Yield",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941383-allogene-therapeutics-is-the-market-looking-at-car-t-persistence-the-wrong-way?source=feed_all_articles",
-        "published": "2026-08-28T18:21:20-04:00"
+        "link": "https://seekingalpha.com/article/4941502-marketwise-limited-downside-with-8-percent-yield?source=feed_all_articles",
+        "published": "2026-08-29T11:17:02-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Noah Holdings Limited (NOAH) Q2 2026 Earnings Call Transcript",
+        "title": "Broadcom, Palo Alto Networks Headline Earnings Amid A Tight Economic Calendar",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4940212-noah-holdings-limited-noah-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T18:09:15-04:00"
+        "link": "https://seekingalpha.com/article/4941339-broadcom-palo-alto-networks-headline-earnings-amid-a-tight-economic-calendar?source=feed_all_articles",
+        "published": "2026-08-29T11:00:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Septerna: GPCR Programs May Be Experimental, But I'm Holding For The Long Term",
+        "title": "Revolution Medicines: RASONQUE's FDA Approval Portends A New Oncology Titan",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941380-septerna-gpcr-programs-may-be-experimental-but-im-holding-for-the-long-term?source=feed_all_articles",
-        "published": "2026-08-28T18:00:59-04:00"
+        "link": "https://seekingalpha.com/article/4941477-revolution-medicines-rasonque-fda-approval-portends-a-new-oncology-titan?source=feed_all_articles",
+        "published": "2026-08-29T11:00:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Henkel: Finding Upside Is Becoming Harder (Rating Downgrade)",
+        "title": "Aviva PLC - The 1H26 Surge May Be An Overreaction",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941379-henkel-finding-upside-is-becoming-harder-downgrade?source=feed_all_articles",
-        "published": "2026-08-28T17:57:25-04:00"
+        "link": "https://seekingalpha.com/article/4941489-aviva-plc-the-1h26-surge-may-be-an-overreaction?source=feed_all_articles",
+        "published": "2026-08-29T11:00:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "IREN: AI Pivot Continues",
+        "title": "MaxLinear: A Twelve Month Window, Not A 2028 Promise",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941378-iren-ai-pivot-continues?source=feed_all_articles",
-        "published": "2026-08-28T17:44:37-04:00"
+        "link": "https://seekingalpha.com/article/4941500-maxlinear-a-twelve-month-window-not-a-2028-promise?source=feed_all_articles",
+        "published": "2026-08-29T10:58:10-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "The Argument PennyMac Won May Barely Matter",
+        "title": "Jackson Hole's Price Stability Message And The Threat To Equities",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941322-the-argument-pennymac-won-may-barely-matter?source=feed_all_articles",
-        "published": "2026-08-28T17:34:21-04:00"
+        "link": "https://seekingalpha.com/article/4941499-jackson-holes-price-stability-message-and-the-threat-to-equities?source=feed_all_articles",
+        "published": "2026-08-29T10:53:06-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "Petronas Gas Berhad (PNAGF) Q2 2026 Earnings Call Transcript",
+        "title": "Why This 13% Yield Is Better Than Its 19% Yielding Peer",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941001-petronas-gas-berhad-pnagf-q2-2026-earnings-call-transcript?source=feed_all_articles",
-        "published": "2026-08-28T17:29:14-04:00"
+        "link": "https://seekingalpha.com/article/4941093-why-this-13-percent-yield-is-better-than-its-19-percent-yielding-peer?source=feed_all_articles",
+        "published": "2026-08-29T10:30:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "4 Reasons To Believe That The 2nd Half Gold Rally Is Just Getting Started",
+        "title": "Affirm's Blockbuster Growth Still Has Legs - Premium Already Baked-In",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941377-4-reasons-to-believe-that-2nd-half-gold-rally-is-just-getting-started?source=feed_all_articles",
-        "published": "2026-08-28T17:24:58-04:00"
+        "link": "https://seekingalpha.com/article/4941462-affirms-blockbuster-growth-still-has-legs-premium-already-baked-in?source=feed_all_articles",
+        "published": "2026-08-29T10:30:00-04:00"
       },
       {
         "source": "Seeking Alpha",
         "category": "analysis",
-        "title": "MasTec: Superior Adds Another Growth Engine As Earnings Accelerate",
+        "title": "Warsh At Jackson Hole: 4 Indicators The Fed Is Watching",
         "summary": "",
-        "link": "https://seekingalpha.com/article/4941376-mastec-superior-adds-another-growth-engine-as-earnings-accelerate?source=feed_all_articles",
-        "published": "2026-08-28T17:20:48-04:00"
+        "link": "https://seekingalpha.com/article/4941496-warsh-at-jackson-hole-4-indicators-the-fed-is-watching?source=feed_all_articles",
+        "published": "2026-08-29T10:23:17-04:00"
       },
       {
         "source": "Investing.com News",
         "category": "analysis",
-        "title": "OpenAI to end Cursor partnership after SpaceX acquisition",
+        "title": "AI’s memory stack: What investors need to know",
         "summary": "",
-        "link": "https://www.investing.com/news/company-news/openai-to-end-cursor-partnership-after-spacex-acquisition-4881930",
-        "published": "2026-08-29T03:19:10"
+        "link": "https://www.investing.com/news/stock-market-news/ais-memory-stack-what-investors-need-to-know-4882003",
+        "published": "2026-08-29T23:16:41"
       },
       {
         "source": "Investing.com News",
         "category": "analysis",
-        "title": "VirTra Inc. director Grant Barber buys $10,136 of its stock",
+        "title": "Rival factions stand off in Niger capital after mutineers attack airport, presidency",
         "summary": "",
-        "link": "https://www.investing.com/news/insider-trading-news/virtra-inc-director-grant-barber-buys-10136-of-its-stock-93CH-4881927",
-        "published": "2026-08-29T02:46:10"
+        "link": "https://www.investing.com/news/commodities-news/mutinous-soldiers-attack-airport-presidency-in-niger-capital-sources-say-4881969",
+        "published": "2026-08-29T23:00:31"
       },
       {
         "source": "Investing.com News",
         "category": "analysis",
-        "title": "Iranian trade plunges 35% as U.S. steps up economic pressure",
+        "title": "Iceland counts votes in tight referendum on EU membership talks",
+        "summary": "",
+        "link": "https://www.investing.com/news/economy-news/iceland-votes-in-tight-referendum-on-whether-to-start-eu-membership-talks-4881985",
+        "published": "2026-08-29T22:00:29"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+        "summary": "",
+        "link": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4881999",
+        "published": "2026-08-29T21:20:03"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Bitcoin price holds at $78,000 as ‘digital gold’ narrative faces fresh test",
+        "summary": "",
+        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-slips-below-78000-as-digital-gold-narrative-faces-fresh-test-4881960",
+        "published": "2026-08-29T21:13:26"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Warsh at Jackson Hole: 8 key takeaways",
+        "summary": "",
+        "link": "https://www.investing.com/news/economy-news/warsh-at-jackson-hole-8-key-takeaways-4881998",
+        "published": "2026-08-29T20:34:12"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "UAE investigates Egypt’s Banque Misr after U.S. moves to block dollar clearing",
+        "summary": "",
+        "link": "https://www.investing.com/news/economy-news/uae-investigates-egypts-banque-misr-after-us-moves-to-block-dollar-clearing-4881997",
+        "published": "2026-08-29T20:27:39"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "What’s in store for the week ahead",
+        "summary": "",
+        "link": "https://www.investing.com/news/economy-news/whats-in-store-for-the-week-ahead-4881996",
+        "published": "2026-08-29T20:07:15"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Bitcoin consolidates between $77.2K-$78.7K: Hourly levels",
+        "summary": "",
+        "link": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-below-78500-resistance-live-hourly-levels-93CH-4872743",
+        "published": "2026-08-29T19:02:26"
+      },
+      {
+        "source": "Investing.com News",
+        "category": "analysis",
+        "title": "Iran foreign trade plunges 35% under US blockade as six-month war drags on",
         "summary": "",
         "link": "https://www.investing.com/news/economy-news/iranian-trade-plunges-35-as-us-steps-up-economic-pressure-4881926",
-        "published": "2026-08-29T02:41:32"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "OpenAI to end partnership with SpaceX’s Cursor",
-        "summary": "",
-        "link": "https://www.investing.com/news/stock-market-news/openai-to-end-partnership-with-spacexs-cursor-4881924",
-        "published": "2026-08-29T02:06:48"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "War weighs on Iran’s economy as US intensifies sanctions",
-        "summary": "",
-        "link": "https://www.investing.com/news/stock-market-news/war-weighs-on-irans-economy-as-us-intensifies-sanctions-4881923",
-        "published": "2026-08-29T02:06:32"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "Indian bank stocks show widest exchange price gap in decades",
-        "summary": "",
-        "link": "https://www.investing.com/news/stock-market-news/indian-bank-stocks-show-widest-exchange-price-gap-in-decades-4881922",
-        "published": "2026-08-29T02:01:53"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "CoreWeave GC Kristen McVeety sells $184,854 in stock",
-        "summary": "",
-        "link": "https://www.investing.com/news/insider-trading-news/coreweave-gc-kristen-mcveety-sells-184854-in-stock-93CH-4881921",
-        "published": "2026-08-29T02:01:37"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "Optimum Communications director Neil S. Subin buys $2.45m in stock",
-        "summary": "",
-        "link": "https://www.investing.com/news/insider-trading-news/optimum-communications-director-neil-s-subin-buys-245m-in-stock-93CH-4881920",
-        "published": "2026-08-29T02:01:11"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "Natera president John Fesko sells $2.1m in company stock",
-        "summary": "",
-        "link": "https://www.investing.com/news/insider-trading-news/natera-president-john-fesko-sells-21m-in-company-stock-93CH-4881919",
-        "published": "2026-08-29T02:01:09"
-      },
-      {
-        "source": "Investing.com News",
-        "category": "analysis",
-        "title": "Monopar Therapeutics director Kim Tsuchimoto sells $455,566 in shares",
-        "summary": "",
-        "link": "https://www.investing.com/news/insider-trading-news/monopar-therapeutics-director-kim-tsuchimoto-sells-455566-in-shares-93CH-4881917",
-        "published": "2026-08-29T01:45:59"
+        "published": "2026-08-29T18:55:43"
       },
       {
         "source": "Yahoo Finance",
         "category": "data",
-        "title": "183-year-old giant tool company closes factory, lays off dozens",
+        "title": "Solar Has Crossed a Critical Economic Tipping Point",
         "summary": "",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/183-old-giant-tool-company-160300042.html",
-        "published": "2026-08-28T16:03:00+00:00"
+        "link": "https://finance.yahoo.com/energy/articles/solar-crossed-critical-economic-tipping-210000010.html",
+        "published": "2026-08-29T21:00:00+00:00"
       },
       {
         "source": "Yahoo Finance",
         "category": "data",
-        "title": "Dunkin' comes back to major market after 12-year absence",
+        "title": "Alphabet Stock: 3 Reasons to Buy Before It Hits a New All-Time High",
         "summary": "",
-        "link": "https://finance.yahoo.com/small-business/articles/dunkin-comes-back-major-market-161700314.html",
-        "published": "2026-08-28T16:17:00+00:00"
+        "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-stock-3-reasons-buy-173002809.html",
+        "published": "2026-08-29T17:30:02+00:00"
       },
       {
         "source": "Yahoo Finance",
         "category": "data",
-        "title": "Okta’s AI boom just created a new security problem",
+        "title": "How Is Home Depot’s Stock Performance Compared to Other Consumer Discretionary Stocks",
         "summary": "",
-        "link": "https://finance.yahoo.com/technology/ai/articles/okta-ai-boom-just-created-161700485.html",
-        "published": "2026-08-28T16:17:00+00:00"
+        "link": "https://finance.yahoo.com/markets/stocks/articles/home-depot-stock-performance-compared-172747281.html",
+        "published": "2026-08-29T17:27:47+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Is Procter & Gamble Stock Underperforming the Nasdaq?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/procter-gamble-stock-underperforming-nasdaq-171921912.html",
+        "published": "2026-08-29T17:19:21+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Johnson & Johnson Stock: Is JNJ Outperforming the Consumer Staples Sector?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-jnj-outperforming-171212270.html",
+        "published": "2026-08-29T17:12:12+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Is Costco Stock Underperforming the Dow?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-underperforming-dow-165446351.html",
+        "published": "2026-08-29T16:54:46+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Is Oracle Stock Underperforming the S&P 500?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-underperforming-p-500-164453386.html",
+        "published": "2026-08-29T16:44:53+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
+        "summary": "",
+        "link": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
+        "published": "2026-08-29T10:00:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Mortgage and refinance interest rates today, Saturday, August 29, 2026: Fixed rates move slightly higher into the weekend",
+        "summary": "",
+        "link": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-29-2026-fixed-rates-move-slightly-higher-into-the-weekend-114438775.html",
+        "published": "2026-08-29T11:44:38+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Investors drop two-word verdict on Warsh’s Fed rate shift",
+        "summary": "",
+        "link": "https://finance.yahoo.com/economy/policy/articles/investors-drop-two-word-verdict-233700437.html",
+        "published": "2026-08-29T23:37:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Billionaire Mark Cuban Is Not Impressed by Bitcoin's Recent Summer Rally. Here's What He's Not Telling You About Bitcoin.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/billionaire-mark-cuban-not-impressed-232200597.html",
+        "published": "2026-08-29T23:22:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "He Won $40,000 Online and Lost Every Dollar Back. He Broke Even Everywhere Except One Line of His Tax Return.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/economy/policy/articles/won-40-000-online-lost-230515126.html",
+        "published": "2026-08-29T23:05:15+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "SpaceX Is Trading Near Its $135 Offering Price. Wall Street Analysts Say This Is What Happens Next.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-trading-near-135-offering-230500876.html",
+        "published": "2026-08-29T23:05:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "‘This Breakup Saved You Far More Than Moderna Ever Could’: Orman to Woman Dumped After 180% Spike",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/breakup-saved-far-more-moderna-230251598.html",
+        "published": "2026-08-29T23:02:51+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Kewaunee Scientific Posts Record $282M Revenue, Maps Fiscal 2027 Growth Investments",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/kewaunee-scientific-posts-record-282m-230153069.html",
+        "published": "2026-08-29T23:01:53+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "NIO's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/nios-next-earnings-report-september-225001789.html",
+        "published": "2026-08-29T22:50:01+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "How a 78-Year-Old Collects $5,300 a Month From Just Three Tickers: SCHD, HTGC, and NNN",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/78-old-collects-5-300-223854562.html",
+        "published": "2026-08-29T22:38:54+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Chevron vs. Occidental: Which Oil Major's Dividend Is Actually Safer?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/energy/articles/chevron-vs-occidental-oil-majors-223500434.html",
+        "published": "2026-08-29T22:35:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Top EV executive joins the AI boom. Now what?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/technology/ai/articles/top-ev-executive-joins-ai-223300803.html",
+        "published": "2026-08-29T22:33:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Pikachu Crashed Tim Cook's Last Apple Park Tour — Here's What the iPhone Maker and the Pokémon Team Talked About",
+        "summary": "",
+        "link": "https://finance.yahoo.com/technology/articles/pikachu-crashed-tim-cooks-last-223109682.html",
+        "published": "2026-08-29T22:31:09+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Brilliant Earth Sees Fine Jewelry Growth as Showroom Strategy Gains Momentum",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/brilliant-earth-sees-fine-jewelry-220205699.html",
+        "published": "2026-08-29T22:02:05+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Sandisk and Kioxia Plan to Invest More Than $31 Billion in Japanese Memory Plants — About 60% of What They Have Spent There in 25 Years.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/technology/articles/sandisk-kioxia-plan-invest-more-215801315.html",
+        "published": "2026-08-29T21:58:01+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Better Consumer Staples ETF: the iShares IYK vs. First Trust's Food and Beverage-Focused FTXG",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/better-consumer-staples-etf-ishares-215046039.html",
+        "published": "2026-08-29T21:50:46+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Tesla Stock in 2027: Why I Think TSLA Still Has Room to Run",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-stock-2027-why-think-215000498.html",
+        "published": "2026-08-29T21:50:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Where You Hold SCHD and MAIN Matters More Than You Think: The Taxable vs. IRA Math",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/where-hold-schd-main-matters-213856842.html",
+        "published": "2026-08-29T21:38:56+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Elizabeth Warren Accuses Trump Of Profiting  While His Administration Shapes Crypto Policy: 'The President Shouldn’t Be Getting Rich’",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/crypto/articles/elizabeth-warren-accuses-trump-profiting-213117513.html",
+        "published": "2026-08-29T21:31:17+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Better International ETF: the iShares IEFA vs. State Street's SPDW",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/better-international-etf-ishares-iefa-212001961.html",
+        "published": "2026-08-29T21:20:01+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "The Milk Check Went Straight to the Barn Loan. Social Security Said He Earned More Than He Thought.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/small-business/articles/milk-check-went-straight-barn-210238311.html",
+        "published": "2026-08-29T21:02:38+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "American Coastal Maps E&S Expansion as Florida Insurance Pricing Softens",
+        "summary": "",
+        "link": "https://finance.yahoo.com/real-estate/articles/american-coastal-maps-e-expansion-210157437.html",
+        "published": "2026-08-29T21:01:57+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "She Retired at 64 With $380,000 in a 401(k) and No Income for Nine Years. She Never Converted a Dollar. Her First RMD Was Taxed at 22%.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/options/articles/she-retired-64-380-000-204143745.html",
+        "published": "2026-08-29T20:41:43+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Why I Think the Best Dividend Stock Isn't a Tech Name: It's Realty Income",
+        "summary": "",
+        "link": "https://finance.yahoo.com/real-estate/articles/why-think-best-dividend-stock-203500371.html",
+        "published": "2026-08-29T20:35:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Bond Traders Buy Warsh’s Tough Talk on Inflation, for Now",
+        "summary": "",
+        "link": "https://www.barrons.com/articles/treasury-bond-market-fed-warsh-inflation-7689b45a?siteid=yhoof2&yptr=yahoo",
+        "published": "2026-08-29T20:27:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Billionaire Stanley Druckenmiller Sold Broadcom and Bought These Artificial Intelligence (AI) Giants Instead",
+        "summary": "",
+        "link": "https://finance.yahoo.com/technology/ai/articles/billionaire-stanley-druckenmiller-sold-broadcom-202000494.html",
+        "published": "2026-08-29T20:20:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Better Growth Stock ETF: Vanguard's Large-Cap VUG vs. Invesco's Small-Cap RZG",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/better-growth-stock-etf-vanguards-201417595.html",
+        "published": "2026-08-29T20:14:17+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Ameresco Director Joseph Sutton Buys 9,700 Shares for $202,400. What Should Investors Do?",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ameresco-director-joseph-sutton-buys-200501614.html",
+        "published": "2026-08-29T20:05:01+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Retirement Savings Challenges for 55- to 64-Year Olds: What to Expect in Your Final Working Years",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/articles/retirement-savings-challenges-55-64-200500506.html",
+        "published": "2026-08-29T20:05:00+00:00"
+      },
+      {
+        "source": "Yahoo Finance",
+        "category": "data",
+        "title": "Struggling to Cover Your Costs in Retirement? 3 Questions to Ask Yourself.",
+        "summary": "",
+        "link": "https://finance.yahoo.com/markets/articles/struggling-cover-costs-retirement-3-200300166.html",
+        "published": "2026-08-29T20:03:00+00:00"
       },
       {
         "source": "SEC EDGAR",
@@ -1244,8 +1324,8 @@
       }
     },
     "stats": {
-      "total_news": 128,
-      "rss_count": 90,
+      "total_news": 138,
+      "rss_count": 100,
       "yf_news_count": 35,
       "sec_count": 3,
       "reddit_count": 0
@@ -1254,224 +1334,224 @@
   "analyses": {
     "AAPL": {
       "ticker": "AAPL",
-      "fact_check": "애플의 구독료 인상은 공식적으로 확인된 사실이며, 이는 수익성 개선을 위한 전략으로 보입니다. 일부 뉴스는 과장된 측면이 있지만, 전반적인 시장 반응은 중립적입니다.",
+      "fact_check": "최근 뉴스 중 일부는 과장된 측면이 있으며, 특히 Pikachu와 Tim Cook의 만남은 큰 영향이 없었습니다. 그러나 OpenAI의 모델 접근 종료와 관련된 뉴스는 공식 확인된 사실입니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "애플의 구독료 인상은 긍정적 수익 전망을 주지만, 시장 심리는 중립적입니다.",
-      "key_insight": "애플의 구독료 인상은 수익성 개선에 긍정적 영향을 미칠 수 있습니다. 그러나 시장의 반응은 중립적이며, 추가적인 성장 동력이 필요할 수 있습니다. 투자자들은 장기적인 관점에서 애플의 전략을 주목해야 합니다.",
-      "recommendation": "관망",
-      "recommendation_reason": "현재 시장 반응이 중립적이므로 추가적인 정보가 필요합니다.",
+      "sentiment_reason": "시장 심리는 중립적이지만, 긍정적인 뉴스와 분석가들의 매수 추천이 긍정적인 영향을 미쳤습니다.",
+      "key_insight": "애플의 주가는 현재 시장에서 긍정적인 평가를 받고 있으며, 분석가들의 목표가에 근접해 있습니다. AI 관련 뉴스가 시장에 큰 영향을 미치고 있으며, 애플의 기술 혁신이 주목받고 있습니다. 투자자들은 AI와 관련된 발전이 애플의 미래 성장에 기여할 수 있음을 인식해야 합니다.",
+      "recommendation": "매수",
+      "recommendation_reason": "애플의 강력한 시장 위치와 긍정적인 분석가 의견을 고려할 때 매수 추천이 적절합니다.",
       "risk_factors": [
-        "구독료 인상에 따른 소비자 반발",
-        "경쟁사의 가격 인하",
-        "거시경제 불확실성"
+        "AI 기술 발전에 따른 경쟁 심화",
+        "글로벌 경제 불확실성",
+        "기술 규제 강화"
       ],
       "catalysts": [
-        "구독 서비스 수익 증가",
+        "AI 기술 혁신",
         "신제품 출시"
       ],
-      "summary_one_line": "애플의 구독료 인상은 수익성 개선을 목표로 하지만, 시장 반응은 중립적입니다.",
+      "summary_one_line": "애플은 긍정적인 시장 평가와 AI 혁신을 통해 성장 가능성을 보여주고 있습니다.",
       "price": 319.7,
       "change_pct": 1.63,
       "market_cap": "$4.67T",
-      "pe_ratio": 36.704937,
+      "pe_ratio": 36.083523,
       "analyst_target": 324.45282,
       "week_52_high": 344.57,
       "week_52_low": 225.95,
       "company_name": "Apple Inc.",
-      "analyzed_at": "2026-08-29T03:30:10.490570+00:00"
+      "analyzed_at": "2026-08-29T23:53:15.558493+00:00"
     },
     "MSFT": {
       "ticker": "MSFT",
-      "fact_check": "Lambda의 10억 달러 채권 조달은 Nvidia와의 협력에 기반한 것으로, 이는 공식적으로 확인된 사실입니다. Microsoft의 데이터 센터에 대한 긍정적 영향은 회사 내부의 의견으로 과장된 부분이 있을 수 있습니다.",
+      "fact_check": "최근 AI 관련 뉴스는 과장된 측면이 있으며, Microsoft의 공식 발표는 없었습니다. OpenAI와 관련된 뉴스는 Microsoft와 직접적인 관련이 없습니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "중립적인 시장 심리와 긍정적인 뉴스가 혼합되어 있어 긍정적인 점수를 부여했습니다.",
-      "key_insight": "Microsoft는 AI와 클라우드 컴퓨팅 분야에서의 확장을 지속하고 있습니다. 최근 Lambda와의 협력은 AI 칩에 대한 수요 증가를 반영합니다. 이는 장기적으로 Microsoft의 기술력 강화에 기여할 수 있습니다.",
-      "recommendation": "매수",
-      "recommendation_reason": "긍정적인 뉴스와 강력한 시장 위치를 고려할 때 매수 추천이 적절합니다.",
+      "sentiment_reason": "분석가의 강력한 매수 추천과 긍정적인 시장 심리에도 불구하고, 중립적인 Fear & Greed 지수와 혼합된 뉴스가 점수에 영향을 미쳤습니다.",
+      "key_insight": "Microsoft의 주가는 현재 긍정적인 시장 심리와 분석가의 높은 목표가에 힘입어 상승세를 보이고 있습니다. 그러나 AI 관련 뉴스가 과장된 측면이 있어 주의가 필요합니다. 투자자들은 Microsoft의 장기적인 성장 가능성을 고려해야 합니다.",
+      "recommendation": "관망",
+      "recommendation_reason": "현재의 긍정적인 시장 심리에도 불구하고, AI 관련 뉴스의 불확실성이 존재합니다.",
       "risk_factors": [
-        "AI 기술에 대한 과도한 의존",
-        "데이터 센터의 환경적 영향",
-        "경쟁사의 기술 발전"
+        "AI 관련 과장된 뉴스로 인한 변동성",
+        "경쟁사의 기술 발전",
+        "글로벌 경제 불확실성"
       ],
       "catalysts": [
-        "AI 칩 수요 증가",
-        "클라우드 서비스 확장"
+        "분석가의 강력한 매수 추천",
+        "긍정적인 시장 심리"
       ],
-      "summary_one_line": "Microsoft는 AI와 클라우드 분야에서의 전략적 협력으로 긍정적인 시장 전망을 보이고 있습니다.",
+      "summary_one_line": "Microsoft는 긍정적인 시장 심리 속에서 성장 가능성을 보이지만, AI 관련 뉴스의 과장 가능성에 주의가 필요합니다.",
       "price": 513.53,
       "change_pct": 1.68,
       "market_cap": "$3.81T",
-      "pe_ratio": 28.640827,
+      "pe_ratio": 28.169502,
       "analyst_target": 569.4537,
       "week_52_high": 553.72,
       "week_52_low": 349.2,
       "company_name": "Microsoft Corporation",
-      "analyzed_at": "2026-08-29T03:30:15.388129+00:00"
+      "analyzed_at": "2026-08-29T23:53:19.749799+00:00"
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "fact_check": "Google의 AI 검색 결과 변경은 실제로 진행 중이며, 이는 검색 경험에 큰 변화를 줄 수 있습니다. Meta의 광고 캠페인은 경쟁사에 대한 압박을 높이고 있지만, 직접적인 영향은 아직 불확실합니다.",
+      "fact_check": "Meta의 $18 billion 합의는 경쟁사들에게 경고를 주고 있으며, 이는 공식적으로 확인된 사실입니다. GOOGL의 8-K 공시도 SEC에 제출되어 공식 확인되었습니다. Yahoo Finance의 GOOGL 관련 뉴스는 구체적인 내용이 부족하여 과장되었을 가능성이 있습니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "분석가들의 강력한 매수 추천과 중립적인 시장 심리, 긍정적인 뉴스가 종합적으로 반영되었습니다.",
-      "key_insight": "Google의 AI 기술 강화는 검색 엔진의 경쟁력을 높일 수 있는 중요한 요소입니다. 그러나 이러한 변화는 사용자 경험에 혼란을 줄 수 있어 주의가 필요합니다. 또한, Meta와의 경쟁 심화는 시장 점유율에 영향을 미칠 수 있습니다.",
+      "sentiment_reason": "전반적인 뉴스 심리와 중립적인 Fear & Greed 지수, Stocktwits의 50% Bullish 비율을 고려했습니다.",
+      "key_insight": "Alphabet의 주가는 현재 긍정적인 시장 심리와 분석가들의 강력한 매수 추천을 받고 있습니다. 그러나 시장의 중립적인 Fear & Greed 지수는 투자자들이 신중하게 접근해야 함을 시사합니다. 최근의 기술 관련 뉴스는 AI와 소셜 미디어에 대한 규제 강화 가능성을 보여주고 있습니다.",
       "recommendation": "매수",
-      "recommendation_reason": "분석가들의 높은 목표가와 강력한 매수 추천이 긍정적입니다.",
+      "recommendation_reason": "분석가들의 강력한 매수 추천과 긍정적인 시장 심리를 고려할 때 매수 추천이 적절합니다.",
       "risk_factors": [
-        "AI 기술 변화로 인한 사용자 경험 혼란",
-        "Meta와의 경쟁 심화",
-        "시장 심리 변화"
+        "AI와 소셜 미디어에 대한 규제 강화 가능성",
+        "경쟁사들의 시장 점유율 확대",
+        "기술주 전반의 변동성 증가"
       ],
       "catalysts": [
-        "AI 기술 강화",
-        "분석가들의 강력한 매수 추천"
+        "강력한 분석가 매수 추천",
+        "긍정적인 시장 심리"
       ],
-      "summary_one_line": "Google의 AI 기술 강화와 분석가들의 긍정적 전망이 주목받고 있습니다.",
+      "summary_one_line": "Alphabet은 강력한 매수 추천을 받고 있지만, 규제 강화 가능성에 주의가 필요합니다.",
       "price": 346.59,
       "change_pct": 1.74,
       "market_cap": "$4.24T",
-      "pe_ratio": 17.390366,
+      "pe_ratio": 17.090237,
       "analyst_target": 428.06668,
       "week_52_high": 408.61,
       "week_52_low": 206.2,
       "company_name": "Alphabet Inc.",
-      "analyzed_at": "2026-08-29T03:30:19.493970+00:00"
+      "analyzed_at": "2026-08-29T23:53:24.393183+00:00"
     },
     "AMZN": {
       "ticker": "AMZN",
-      "fact_check": "현재 Amazon의 주가는 전일 대비 3.97% 상승했으며, 이는 최근 긍정적인 시장 심리와 일치합니다. 분석가들의 목표가는 여전히 $327.00로 유지되고 있어 장기적인 상승 가능성을 시사합니다.",
+      "fact_check": "현재 Amazon에 대한 뉴스는 주로 기술 및 AI 관련 이슈에 집중되어 있으며, 직접적인 부정적 뉴스는 없습니다. 주가 상승은 시장의 긍정적 반응을 반영한 것으로 보입니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "뉴스 심리와 분석가 추천이 긍정적이며, Fear & Greed 지수는 중립적입니다.",
-      "key_insight": "Amazon의 주가는 최근 긍정적인 시장 심리와 함께 상승세를 보이고 있습니다. 분석가들은 여전히 높은 목표가를 제시하고 있으며, 이는 장기적인 성장 가능성을 시사합니다. 그러나 시장의 변동성과 외부 경제 요인에 대한 주의가 필요합니다.",
+      "sentiment_reason": "전반적인 시장 심리는 중립적이나, Amazon의 주가는 상승세를 보이고 있어 긍정적으로 평가됩니다.",
+      "key_insight": "Amazon의 주가는 최근 긍정적인 시장 반응에 힘입어 상승세를 보이고 있습니다. AI 및 기술 관련 이슈가 시장의 주요 관심사로 부각되고 있어, Amazon의 기술 투자 전략이 주목받고 있습니다. 투자자들은 Amazon의 지속적인 혁신과 시장 점유율 확대에 주목해야 합니다.",
       "recommendation": "매수",
-      "recommendation_reason": "분석가의 강력한 매수 추천과 목표가를 고려할 때 긍정적인 전망이 유지됩니다.",
+      "recommendation_reason": "시장의 긍정적 반응과 Amazon의 기술력 강화가 주가 상승을 이끌 것으로 예상됩니다.",
       "risk_factors": [
-        "시장의 변동성",
-        "외부 경제 요인",
-        "기술주 전반의 조정 가능성"
+        "기술 규제 강화 가능성",
+        "경쟁사의 기술 혁신",
+        "글로벌 경제 불확실성"
       ],
       "catalysts": [
-        "강력한 분석가 추천",
-        "긍정적인 시장 심리"
+        "AI 기술 발전",
+        "전자상거래 시장 성장"
       ],
-      "summary_one_line": "Amazon은 긍정적인 시장 심리와 분석가의 강력한 추천으로 매수 기회가 있습니다.",
+      "summary_one_line": "Amazon의 기술 투자와 시장 반응이 긍정적이므로 매수 추천합니다.",
       "price": 266.43,
       "change_pct": 3.97,
       "market_cap": "$2.87T",
-      "pe_ratio": 21.434431,
+      "pe_ratio": 20.621517,
       "analyst_target": 327.004,
       "week_52_high": 287.2,
       "week_52_low": 196.0,
       "company_name": "Amazon.com, Inc.",
-      "analyzed_at": "2026-08-29T03:30:24.271291+00:00"
+      "analyzed_at": "2026-08-29T23:53:28.524155+00:00"
     },
     "NVDA": {
       "ticker": "NVDA",
-      "fact_check": "Lambda의 10억 달러 채권 조달은 Nvidia와의 협력을 공식적으로 확인했으며, 이는 AI 칩 수요 증가를 반영합니다. DLSS 5의 유출은 아직 공식 발표가 없으므로 과장된 측면이 있습니다.",
+      "fact_check": "Nvidia의 AI 기술은 GPU를 넘어 데이터 센터 효율성을 높이고 있다는 점에서 긍정적입니다. 그러나 주가 하락은 시장의 불안감을 반영합니다. 공식 공시와 뉴스는 AI의 성장 가능성을 뒷받침하고 있습니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "Nvidia의 AI 칩 수요 증가와 중립적인 시장 심리가 긍정적 영향을 미쳤습니다.",
-      "key_insight": "Nvidia는 AI 칩 수요 증가로 인해 긍정적인 주가 흐름을 기대할 수 있습니다. Lambda와의 협력은 Nvidia의 시장 지배력을 강화할 수 있는 기회입니다. 그러나 최근 주가 하락은 단기적인 조정일 가능성이 있습니다.",
-      "recommendation": "매수",
-      "recommendation_reason": "AI 칩 수요 증가와 분석가들의 긍정적 전망이 매수 기회를 제공합니다.",
+      "sentiment_reason": "최근 뉴스는 AI 기술의 긍정적인 발전을 강조하고 있으며, Fear & Greed 지수는 중립적이고 Stocktwits의 투자 심리는 균형을 이루고 있습니다.",
+      "key_insight": "Nvidia는 AI 기술을 통해 데이터 센터의 효율성을 높이고 있습니다. 이는 장기적으로 회사의 경쟁력을 강화할 수 있는 중요한 요소입니다. 그러나 현재 주가 하락은 단기적인 시장 변동성을 반영합니다.",
+      "recommendation": "관망",
+      "recommendation_reason": "현재 시장 변동성이 크기 때문에 신중한 접근이 필요합니다.",
       "risk_factors": [
-        "AI 시장 경쟁 심화",
-        "기술 유출 위험",
-        "단기 주가 변동성"
+        "AI 기술의 발전 속도 둔화",
+        "경쟁사의 기술 발전",
+        "시장 변동성 증가"
       ],
       "catalysts": [
-        "AI 칩 수요 증가",
-        "Lambda와의 협력 강화"
+        "AI 기술의 지속적인 발전",
+        "데이터 센터 효율성 향상"
       ],
-      "summary_one_line": "Nvidia는 AI 칩 수요 증가로 인해 긍정적인 주가 흐름을 기대할 수 있습니다.",
+      "summary_one_line": "Nvidia는 AI 기술 발전을 통해 장기적인 성장 가능성을 보유하고 있지만, 현재 시장 변동성은 주의가 필요합니다.",
       "price": 217.55,
       "change_pct": -4.57,
       "market_cap": "$5.25T",
-      "pe_ratio": 27.503162,
-      "analyst_target": 305.7931,
+      "pe_ratio": 28.81457,
+      "analyst_target": 323.41898,
       "week_52_high": 236.54,
       "week_52_low": 164.07,
       "company_name": "NVIDIA Corporation",
-      "analyzed_at": "2026-08-29T03:30:28.645543+00:00"
+      "analyzed_at": "2026-08-29T23:53:33.050541+00:00"
     },
     "META": {
       "ticker": "META",
-      "fact_check": "Meta의 신문 광고 캠페인은 TikTok과 YouTube에 대한 압박을 강화하려는 전략으로, 이는 공식적으로 확인된 사실이다. 그러나 이로 인해 경쟁사들이 즉각적인 대응을 할 것이라는 주장은 과장된 측면이 있다.",
+      "fact_check": "Meta의 아동 안전 합의는 공식적으로 확인된 사실이며, 경쟁사들에게도 유사한 규제를 요구하고 있습니다. 이는 과장된 헤드라인이 아닌 실제 상황입니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "뉴스에서 긍정적인 요소가 많고, Fear & Greed 지수가 중립적이며, Stocktwits의 Bullish 비율이 50%로 중립적이다.",
-      "key_insight": "Meta는 공격적인 마케팅 전략을 통해 경쟁사에 대한 압박을 강화하고 있다. 이는 시장 점유율 확대를 위한 중요한 움직임으로 볼 수 있다. 그러나 인도 시장에서의 규제 압박은 주의가 필요하다.",
+      "sentiment_reason": "Meta의 강력한 아동 보호 정책과 긍정적인 시장 반응이 주된 이유입니다. Fear & Greed 지수는 중립적이나, 분석가들의 강력한 매수 추천이 긍정적입니다.",
+      "key_insight": "Meta는 최근 아동 안전 문제 해결을 위한 중요한 합의를 체결했습니다. 이는 경쟁사들에게도 압박을 가할 수 있으며, 장기적으로 긍정적인 시장 반응을 이끌어낼 수 있습니다. 현재 주가는 분석가 목표가보다 낮아 추가 상승 여력이 있습니다.",
       "recommendation": "매수",
-      "recommendation_reason": "Meta의 강력한 시장 전략과 분석가들의 긍정적인 전망을 고려할 때 매수 추천이 적절하다.",
+      "recommendation_reason": "분석가들의 강력한 매수 추천과 긍정적인 뉴스 흐름이 뒷받침됩니다.",
       "risk_factors": [
-        "인도 시장에서의 규제 압박",
-        "경쟁사의 대응 강화 가능성",
-        "광고 캠페인의 효과 불확실성"
+        "아동 안전 문제로 인한 추가 규제 가능성",
+        "경쟁사의 빠른 대응",
+        "시장 전반의 기술주 조정"
       ],
       "catalysts": [
-        "공격적인 마케팅 전략",
+        "아동 안전 합의로 인한 긍정적 이미지",
         "분석가들의 높은 목표가"
       ],
-      "summary_one_line": "Meta는 공격적인 마케팅과 긍정적인 시장 전망으로 매수 기회를 제공한다.",
+      "summary_one_line": "Meta의 아동 안전 합의는 주가 상승의 긍정적 촉매로 작용할 수 있습니다.",
       "price": 578.02,
       "change_pct": 1.21,
       "market_cap": "$1.47T",
-      "pe_ratio": 21.762802,
+      "pe_ratio": 21.503721,
       "analyst_target": 754.7214,
       "week_52_high": 790.8,
       "week_52_low": 520.26,
       "company_name": "Meta Platforms, Inc.",
-      "analyzed_at": "2026-08-29T03:30:32.791477+00:00"
+      "analyzed_at": "2026-08-29T23:53:37.479731+00:00"
     },
     "TSLA": {
       "ticker": "TSLA",
-      "fact_check": "Tesla의 주가는 최근 하락했지만, 이는 시장 전반의 기술주 매도세와 관련이 있으며 Tesla 자체의 부정적인 뉴스는 확인되지 않았습니다. 분석가들의 목표가는 여전히 현재가보다 높으며, 이는 긍정적인 신호입니다.",
+      "fact_check": "OpenAI의 Cursor 접근 종료는 SpaceX 인수와 관련된 공식 발표이며, 과장된 내용은 없습니다. 다른 뉴스들은 테슬라와 직접적인 관련이 없습니다.",
       "sentiment_score": 7,
-      "sentiment_reason": "전반적인 뉴스 심리는 중립적이며, Fear & Greed 지수도 중립을 나타내고 있지만 분석가들의 긍정적인 목표가와 추천이 긍정적인 영향을 미칩니다.",
-      "key_insight": "Tesla의 주가는 최근 하락했지만, 이는 시장 전반의 기술주 매도세와 관련이 있습니다. 분석가들은 여전히 Tesla의 목표가를 높게 설정하고 있으며, 이는 향후 주가 상승 가능성을 시사합니다. 투자자들은 Tesla의 혁신적인 기술과 시장 지배력을 긍정적으로 평가하고 있습니다.",
-      "recommendation": "관망",
-      "recommendation_reason": "현재 시장 상황과 분석가들의 긍정적인 목표가를 고려할 때, 관망이 적절합니다.",
+      "sentiment_reason": "분석가의 매수 추천과 중립적인 시장 심리 지표에 기반하여 긍정적인 점수를 부여했습니다.",
+      "key_insight": "테슬라는 높은 PER에도 불구하고 시장에서 여전히 성장 가능성을 인정받고 있습니다. 최근 시장 심리는 중립적이지만, 분석가들은 여전히 목표가를 높게 설정하고 있습니다. 이는 테슬라의 장기적인 성장 가능성을 반영하는 것으로 보입니다.",
+      "recommendation": "매수",
+      "recommendation_reason": "분석가들의 높은 목표가와 매수 추천을 고려할 때 긍정적인 전망이 우세합니다.",
       "risk_factors": [
-        "기술주 전반의 매도세",
         "높은 PER로 인한 밸류에이션 부담",
-        "경쟁사의 기술 발전"
+        "경쟁 심화로 인한 시장 점유율 감소 가능성",
+        "글로벌 경제 불확실성"
       ],
       "catalysts": [
-        "분석가들의 높은 목표가",
-        "Tesla의 혁신적인 기술력"
+        "신규 모델 출시",
+        "배터리 기술 혁신"
       ],
-      "summary_one_line": "Tesla는 현재 시장 상황에서 관망이 추천되며, 분석가들의 긍정적인 목표가와 혁신적인 기술력이 주목됩니다.",
+      "summary_one_line": "테슬라는 높은 성장 가능성을 인정받고 있으며, 분석가들은 여전히 매수를 추천하고 있습니다.",
       "price": 348.75,
       "change_pct": -1.71,
       "market_cap": "$1.38T",
-      "pe_ratio": 329.00946,
+      "pe_ratio": 332.14288,
       "analyst_target": 390.09283,
       "week_52_high": 498.83,
       "week_52_low": 297.38,
       "company_name": "Tesla, Inc.",
-      "analyzed_at": "2026-08-29T03:30:39.188209+00:00"
+      "analyzed_at": "2026-08-29T23:53:41.535765+00:00"
     },
     "market_summary": {
-      "market_summary": "오늘 시장은 전반적으로 중립적인 분위기를 보이고 있으며, 주요 기술주들이 긍정적인 전망을 가지고 있습니다. 투자자들은 AI와 클라우드 분야에서의 혁신을 주목하고 있습니다.",
-      "top_mover": "NVDA",
-      "top_mover_reason": "Nvidia는 AI 칩 수요 증가로 인해 긍정적인 주가 흐름을 기대할 수 있습니다.",
+      "market_summary": "오늘 시장은 전반적으로 중립적인 분위기 속에서 주요 기술주들이 긍정적인 평가를 받고 있습니다. 투자자들은 AI 혁신과 기술 투자에 주목하고 있습니다.",
+      "top_mover": "AAPL",
+      "top_mover_reason": "애플은 AI 혁신을 통해 성장 가능성을 보여주며 긍정적인 시장 평가를 받고 있습니다.",
       "market_mood": "혼조",
-      "today_strategy": "투자자들은 AI 및 클라우드 분야의 강세를 활용하여 관련 주식에 대한 매수 기회를 고려할 수 있습니다. 그러나 시장의 중립적인 분위기를 감안하여 신중한 접근이 필요합니다."
+      "today_strategy": "투자자들은 긍정적인 평가를 받는 기술주에 주목하면서도, 시장 변동성에 대비해 신중한 접근이 필요합니다. 특히 AI 관련 뉴스의 과장 가능성에 주의하며 장기적인 성장 가능성을 고려한 투자를 추천합니다."
     },
     "daily_insights": {
-      "Topic_Title": "OpenAI와 SpaceX의 협력 종료",
-      "Full_Summary": "OpenAI가 SpaceX의 Cursor 인수 이후 Cursor와의 파트너십을 종료한다고 발표했습니다. 이는 AI 기술 및 시장에서의 전략적 변화로 해석될 수 있으며, AI 분야의 주요 기업 간의 협력과 경쟁 구도가 재편될 가능성을 시사합니다. 이러한 변화는 AI 기술의 발전과 상업적 활용에 중대한 영향을 미칠 수 있습니다.",
+      "Topic_Title": "AI와 메모리 기술의 투자 증가 및 경제적 전환점",
+      "Full_Summary": "최근 AI 기술의 발전과 메모리 스택의 중요성이 부각되면서, Sandisk와 Kioxia가 일본 메모리 공장에 310억 달러 이상을 투자할 계획을 발표했습니다. 이는 AI 기술의 발전에 따른 메모리 수요 증가와 관련이 있으며, 경제적 전환점으로 작용할 수 있습니다. 이러한 변화는 AI 및 반도체 산업의 성장을 촉진하고, 관련 주식 시장에도 긍정적인 영향을 미칠 수 있습니다.",
       "Related_M7_Ticker": "N/A",
       "Verified_Sources": [
-        "https://www.investing.com/news/company-news/openai-to-end-cursor-partnership-after-spacex-acquisition-4881930",
-        "https://www.bloomberg.com/news/articles/2026-08-29/openai-to-end-partnership-with-cursor-after-spacex-acquisition",
-        "https://www.investing.com/news/stock-market-news/openai-to-end-partnership-with-spacexs-cursor-4881924"
+        "https://www.investing.com/news/stock-market-news/ais-memory-stack-what-investors-need-to-know-4882003",
+        "https://finance.yahoo.com/technology/articles/sandisk-kioxia-plan-invest-more-215801315.html",
+        "https://finance.yahoo.com/technology/ai/articles/top-ev-executive-joins-ai-223300803.html"
       ],
       "AI_Impact_Score": 7,
-      "AI_Impact_Reason": "OpenAI와 SpaceX의 협력 종료는 AI 기술 발전과 시장 경쟁에 있어 중요한 변화를 초래할 수 있으며, 이는 관련 기업의 주가에 긍정적인 영향을 미칠 가능성이 있습니다."
+      "AI_Impact_Reason": "AI 기술과 메모리 기술의 발전은 관련 산업의 성장을 촉진할 수 있으며, 이는 M7 기업의 주가에 긍정적인 영향을 미칠 가능성이 높습니다."
     },
     "fear_greed": {
       "score": 54.4,
       "rating": "neutral",
       "description": "CNN Fear & Greed: 54/100 (neutral)"
     },
-    "analyzed_at": "2026-08-29T03:30:45.304051+00:00"
+    "analyzed_at": "2026-08-29T23:53:47.754504+00:00"
   }
 }
